@@ -68,9 +68,13 @@ const config = {
         en: '<i class="bi bi-collection"></i> Portfolio',
         zh: '<i class="bi bi-collection"></i> 作品集'
     },
+    'resume-links': {
+        en: '<a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (EN)</a><a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (ZH)</a>',
+        zh: '<a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载中文简历</a><a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载英文简历</a>'
+    },
     'copyright-text': {
-        en: '&copy; Noah Zhou 2023-2026. All Rights Reserved.',
-        zh: '&copy; 周方亚诺 2023-2026. 保留所有权利。'
+        en: '&copy; Noah Zhou 2026. All Rights Reserved.',
+        zh: '&copy; 周方亚诺 2026. 保留所有权利。'
     }
 };
 
@@ -195,13 +199,22 @@ LLM value alignment, multimodal fake news detection, multi-task fake news detect
 
 **Douban**: https://www.douban.com/people/227017213
 `,
-        publications: `#### Papers
-- Multimodal MoE fake news detection paper accepted by IEEE Transactions on Consumer Electronics (DOI: 10.1109/TCE.2026.3677445)
-- Counterfactual software defect detection paper under review
-- Multi-task fake news detection paper in progress
+                publications: `#### Papers
+<ul class="pub-list">
+    <li>
+        Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
+        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection,"
+        <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
+        <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
+    </li>
+    <li>Counterfactual software defect detection paper under review</li>
+    <li>Multi-task fake news detection paper in progress</li>
+</ul>
 
 #### Patents
-- Patent pending (expected approval in 2026.9-2026.10)
+<ul class="pub-list">
+    <li>Patent pending (expected approval in 2026.9-2026.10)</li>
+</ul>
 `,
         portfolio: `Below are the portfolio materials and key project links. Both PDF and PPT versions are available.
 
@@ -346,13 +359,22 @@ Feel free to email me for additional materials or demos.
 
 **个人豆瓣主页**：https://www.douban.com/people/227017213
 `,
-        publications: `#### 论文
-- 多模态 MoE 假新闻检测论文已被 IEEE Transactions on Consumer Electronics 接收（DOI: 10.1109/TCE.2026.3677445）
-- 反事实软件缺陷检测论文在投
-- 多任务假新闻检测论文撰写中
+                publications: `#### 论文
+<ul class="pub-list">
+    <li>
+        Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
+        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection,"
+        <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
+        <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
+    </li>
+    <li>反事实软件缺陷检测论文在投</li>
+    <li>多任务假新闻检测论文撰写中</li>
+</ul>
 
 #### 专利
-- 专利申请中（预计 2026 年 9-10 月通过）
+<ul class="pub-list">
+    <li>专利申请中（预计 2026 年 9-10 月通过）</li>
+</ul>
 `,
         portfolio: `以下为作品集展示与主要项目链接，包含 PDF 与 PPT 版本（可任选浏览）。
 

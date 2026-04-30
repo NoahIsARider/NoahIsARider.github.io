@@ -43,6 +43,9 @@ publications-subtitle:
 portfolio-subtitle:
   en: <i class="bi bi-collection"></i> Portfolio
   zh: <i class="bi bi-collection"></i> 作品集
+resume-links:
+  en: <a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (EN)</a><a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (ZH)</a>
+  zh: <a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载中文简历</a><a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载英文简历</a>
 copyright-text:
-  en: '&copy; Noah Zhou 2023-2026. All Rights Reserved.'
-  zh: '&copy; 周方亚诺 2023-2026. 保留所有权利。'
+  en: '&copy; Noah Zhou 2026. All Rights Reserved.'
+  zh: '&copy; 周方亚诺 2026. 保留所有权利。'

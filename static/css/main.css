@@ -26,6 +26,32 @@
     font-weight: 400;
 }
 
+.resume-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.resume-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.resume-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
 .top-section .top-section-content {
     position: relative;
     z-index: 1;
@@ -52,6 +78,37 @@ section .main-body{
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.pub-list {
+    list-style: disc;
+    padding-left: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.pub-list li {
+    margin-bottom: 0.6rem;
+}
+
+.pub-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.1rem 0.6rem;
+    margin-left: 0.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--h-title-color);
+    color: var(--h-title-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.pub-link:hover {
+    background: var(--h-title-color);
+    color: #ffffff;
 }
 
 #home .main-body {
