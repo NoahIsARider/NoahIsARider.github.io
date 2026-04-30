@@ -1,0 +1,6 @@
+- Motivational Student Award, Hua Xun · Yun Jie Scholarship, 2023.9
+- Outstanding Individual, 2023-2024 SCUT Student Military Training, 2024.1
+- First Place, ModelScope Community Large Model Application Development Practical Team, 2025.2
+- First Prize, Guangdong Region, 2025 “Shenzhen Cup” Mathematical Modeling Challenge, 2025.6
+- First Prize, Guangdong Region, 2025 National Mathematical Modeling Competition, 2025.10
+- National Finalist, 2025 China International College Students Innovation Competition, 2025.10

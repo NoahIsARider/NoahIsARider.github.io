@@ -1,5 +1,48 @@
-title: Yourname's Homepage
-page-top-title: Yourname
-top-section-bg-text: Be what you wanna be
-home-subtitle: Yourname&ensp;|&ensp;上杉绘梨衣
-copyright-text: '&copy; Yourname 2023-2025. All Rights Reserved.'
+title:
+  en: Noah Zhou | Academic Homepage
+  zh: 周方亚诺 | 个人主页
+page-top-title:
+  en: Noah Zhou
+  zh: 周方亚诺
+top-section-bg-text:
+  en: Stand by what is right, unwavering for life.
+  zh: 择善固执，终生不渝
+home-subtitle:
+  en: Noah Zhou &ensp;|&ensp; Software Engineering + Business Administration
+  zh: 周方亚诺 &ensp;|&ensp; 软件工程 + 工商管理
+nav-home:
+  en: Home
+  zh: 主页
+nav-awards:
+  en: Awards
+  zh: 奖励荣誉
+nav-experience:
+  en: Experience
+  zh: 项目经历
+nav-publications:
+  en: Publications
+  zh: 论文与成果
+nav-portfolio:
+  en: Portfolio
+  zh: 作品集
+lang-zh:
+  en: 中文
+  zh: 中文
+lang-en:
+  en: English
+  zh: English
+awards-subtitle:
+  en: <i class="bi bi-award-fill"></i> Awards
+  zh: <i class="bi bi-award-fill"></i> 奖励荣誉
+experience-subtitle:
+  en: <i class="bi bi-briefcase-fill"></i> Experience
+  zh: <i class="bi bi-briefcase-fill"></i> 项目经历
+publications-subtitle:
+  en: <i class="bi bi-file-text-fill"></i> Publications
+  zh: <i class="bi bi-file-text-fill"></i> 论文与成果
+portfolio-subtitle:
+  en: <i class="bi bi-collection"></i> Portfolio
+  zh: <i class="bi bi-collection"></i> 作品集
+copyright-text:
+  en: '&copy; Noah Zhou 2023-2026. All Rights Reserved.'
+  zh: '&copy; 周方亚诺 2023-2026. 保留所有权利。'
