@@ -121,6 +121,7 @@ LLM value alignment, multimodal fake news detection, multi-task fake news detect
 - First Prize, Guangdong Region, 2025 “Shenzhen Cup” Mathematical Modeling Challenge, 2025.6
 - First Prize, Guangdong Region, 2025 National Mathematical Modeling Competition, 2025.10
 - National Finalist, 2025 China International College Students Innovation Competition, 2025.10
+- Meritorious Winner, 2026 COMAP's Interdisciplinary Contest in Modeling (ICM), 2026.05
 `,
         experience: `### Interdisciplinary Research on News Communication and Large Models (2024.5 - Present)
 **Focus**: News communication and large-model research including LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based news dissemination simulation, sentiment analysis, hallucination research, and text readability analysis.
@@ -281,6 +282,7 @@ Feel free to email me for additional materials or demos.
 - 2025 年“深圳杯”数学建模挑战赛广东赛区一等奖，2025.6
 - 2025 年全国数学建模竞赛广东赛区一等奖，2025.10
 - 2025 年中国国际大学生创新大赛全国总决赛入围作品，2025.10
+- 2026 年美国大学生数学建模竞赛ICM M奖，2026.5
 `,
         experience: `### 新闻传播 - 大模型跨学科研究（2024.5 - 至今）
 **研究方向**：新闻传播与大模型交叉研究，包括大语言模型价值对齐、多模态假新闻检测、多任务假新闻检测模型、智能体模拟假新闻传播、情感分析、幻觉研究、文本可读性分析。

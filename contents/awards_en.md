@@ -4,3 +4,4 @@
 - First Prize, Guangdong Region, 2025 “Shenzhen Cup” Mathematical Modeling Challenge, 2025.6
 - First Prize, Guangdong Region, 2025 National Mathematical Modeling Competition, 2025.10
 - National Finalist, 2025 China International College Students Innovation Competition, 2025.10
+- Meritorious Winner, 2026 COMAP's Interdisciplinary Contest in Modeling (ICM), 2026.05
