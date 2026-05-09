@@ -85,7 +85,7 @@ const contentByLang = {
 **Email**: 1966322816@qq.com  
 **WeChat**: zfyn18779261101  
 **Website**: https://github.com/NoahIsARider  
-**Current City**: Guangzhou  
+**Current City**: Guangdong, Guangzhou  
 **Hometown**: Jiujiang, Jiangxi  
 **Birthdate**: 2005-06  
 
@@ -102,26 +102,26 @@ const contentByLang = {
 - Awarded a tuition-free place in the 2025 HKUST Summer School (English-taught, 4 spots university-wide)
 
 #### Research Interests
-LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based news dissemination simulation, sentiment analysis, hallucination research, text readability analysis, AIGC in healthcare, computer vision and target recognition, social simulation and multi-agent systems.
+Fake news detection, social computing, AI for Business, health and medical AI, recommender systems, multi-agent systems, LLM value alignment, multimodal learning, sentiment analysis, hallucination research, text readability analysis, computer vision and target recognition.
 
 #### Technical Skills
 - Programming Languages: C++ (solid), Java (fluent), Python (strong in data crawling and deep learning), MySQL (fluent)
 - Frameworks and Practices: Flask, Vue, Docker, machine learning and deep learning, microservice architecture, RPC and modern internet stacks
-- Language Skills: Fluent English (CET-6 642, IELTS 8.0); basic German (Duolingo S3U22, completed SCUT “German Oral Communication”)
+- Language Skills: Highly proficient English (CET-6 642, IELTS 8.0); basic German (Duolingo S3U22, completed SCUT “German Oral Communication”)
 - Other Skills: Familiar with Linux; strong AI-assisted programming experience (Trae, Copilot, Claude Code, plugins, MCP, skills); video editing and music production; advanced Office skills (especially PPT illustration); Piano Grade 10
 
 #### Personal Summary
-- Soft Skills: Strong team collaboration, organization, emotional intelligence, and stress tolerance
-- Broad Knowledge Base: Deep interdisciplinary study in neuroscience, anthropology, philosophy, and game theory
-- Career Direction: Aim to keep working on cutting-edge technologies and create positive, empowering team experiences
+- Soft Skills: Strong collaboration and communication, proactive in sharing positive energy, highly organized, and resilient under pressure; self-driven researcher mindset
+- Broad Knowledge Base: Deep interdisciplinary study in neuroscience, anthropology, philosophy, and game theory that strengthens technical understanding and application
+- Career Direction: Pursue cutting-edge technologies, build empowering team experiences, and create projects with real social impact; share ideas that spark reflection and contribute a thoughtful, warm, and capable voice
 `,
-        awards: `- Motivational Student Award, Hua Xun · Yun Jie Scholarship, 2023.9
-- Outstanding Individual, 2023-2024 SCUT Student Military Training, 2024.1
-- First Place, ModelScope Community Large Model Application Development Practical Team, 2025.2
-- First Prize, Guangdong Region, 2025 “Shenzhen Cup” Mathematical Modeling Challenge, 2025.6
+        awards: `- <span class="highlight-blue">Meritorious Winner, 2026 COMAP's Interdisciplinary Contest in Modeling (ICM), 2026.05</span>
 - First Prize, Guangdong Region, 2025 National Mathematical Modeling Competition, 2025.10
 - National Finalist, 2025 China International College Students Innovation Competition, 2025.10
-- Meritorious Winner, 2026 COMAP's Interdisciplinary Contest in Modeling (ICM), 2026.05
+- First Prize, Guangdong Region, 2025 “Shenzhen Cup” Mathematical Modeling Challenge, 2025.6
+- First Place, ModelScope Community Large Model Application Development Practical Team, 2025.2
+- Outstanding Individual, 2023-2024 SCUT Student Military Training, 2024.1
+- Motivational Student Award, Hua Xun · Yun Jie Scholarship, 2023.9
 `,
         experience: `### Interdisciplinary Research on News Communication and Large Models (2024.5 - Present)
 **Focus**: News communication and large-model research including LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based news dissemination simulation, sentiment analysis, hallucination research, and text readability analysis.
@@ -143,11 +143,11 @@ LLM value alignment, multimodal fake news detection, multi-task fake news detect
 **Introduction**: Built generative AI to produce structured medical records, reducing repetitive work, delays, and quality inconsistency. Focused on medical dialogue modeling to enable automatic outpatient record generation.
 
 **My Responsibilities**:
-- Early-stage speech-to-text with Whisper, Qwen model fine-tuning, and prompt engineering to improve record standardization.
-- Local proxy setup and firewall access.
-- Mid-stage batch data validation and effect adjustment.
+- Early-stage speech-to-text (Whisper), Qwen fine-tuning, and prompt engineering. As a core developer, I iterated on models to improve the standardization and practicality of generated medical records.
+- Batch data testing and effect tuning by building automated test pipelines, significantly improving testing efficiency.
+- Assisted environment deployment, local proxy setup, and firewall access.
 
-**Achievements**: Project later shifted to mental health departments; strengthened cross-functional collaboration experience, reporting and progress management, and Linux development skills.
+**Achievements**: The project later shifted to mental health departments with potential hospital adoption in Guangzhou. I gained experience in healthcare product thinking and domain-specific constraints, and developed the ability to build systems that are both technically strong and robust in safety and reliability. I also strengthened cross-functional collaboration, reporting, progress management, and Linux development skills.
 
 ---
 
@@ -185,20 +185,6 @@ LLM value alignment, multimodal fake news detection, multi-task fake news detect
 
 ---
 
-### Wanbang Xingxing Charging Technology: Charging Pile Site Selection (2025)
-**Introduction**: Participated in an enterprise site selection project within the same research group; summarized the CSLP model from a review paper and presented findings.
-
----
-
-### Extracurricular: CC Film Club - Projection Team Leader (2023.9 - Present)
-**My Responsibilities**:
-- Weekly film selection and themed screening organization.
-- On-site coordination for Guangzhou university joint screenings (about 200 participants each).
-- Wrote articles for the film club WeChat public account; contributed to short video creation and interviews.
-
-**Achievements**: Enhanced aesthetic ability and organizational coordination skills.
-
-**Douban**: https://www.douban.com/people/227017213
 `,
                 publications: `#### Papers
 <ul class="pub-list">
@@ -239,6 +225,18 @@ LLM value alignment, multimodal fake news detection, multi-task fake news detect
 - MoonPit (professional image management and search with self-built databases)
 
 Feel free to email me for additional materials or demos.
+
+---
+
+### Extracurricular: CC Film Club - Projection Team Leader (2023.9 - Present)
+**My Responsibilities**:
+- Weekly film selection and themed screening organization.
+- On-site coordination for Guangzhou university joint screenings (about 200 participants each).
+- Wrote articles for the film club WeChat public account; contributed to short video creation and interviews.
+
+**Achievements**: Enhanced aesthetic ability and organizational coordination skills.
+
+**Douban**: https://www.douban.com/people/227017213
 `
     },
     zh: {
@@ -247,7 +245,7 @@ Feel free to email me for additional materials or demos.
 **邮箱**：1966322816@qq.com  
 **微信**：zfyn18779261101  
 **个人网站**：https://github.com/NoahIsARider  
-**现居城市**：广州  
+**现居城市**：广东广州  
 **籍贯**：江西九江  
 **生日**：2005-06  
 
@@ -264,26 +262,26 @@ Feel free to email me for additional materials or demos.
 - 获得 2025 年香港科技大学暑期学校项目免学费名额（全英授课，全校四个名额）
 
 #### 研究兴趣
-大语言模型价值对齐、多模态假新闻检测、多任务假新闻检测模型、智能体模拟假新闻传播、情感分析、幻觉研究、文本可读性分析、AIGC 医疗应用、计算机视觉与目标识别、社会仿真与多智能体系统。
+假新闻检测、社会计算、AI For Business、健康医疗、推荐系统、多智能体系统、大语言模型价值对齐、多模态学习、情感分析、幻觉研究、文本可读性分析、计算机视觉与目标识别。
 
 #### 专业技能
 - 编程语言：C++（扎实）、Java（流利）、Python（擅长数据爬取与深度学习）、MySQL（流利）
 - 技术框架与能力：Flask、Vue、Docker、机器学习与深度学习技术、微服务架构、远程函数调用（RPC）等常用互联网技术
-- 语言能力：英语流利（CET-6 642，雅思 8.0），基础德语（多邻国课程达到 S3U22，完成华工“德语口语交际”课程）
+- 语言能力：英语精通（CET-6 642，雅思 8.0），基础德语（多邻国课程达到 S3U22，完成华工“德语口语交际”课程）
 - 其他技能：熟悉 Linux 系统；擅长 AI 辅助编程（Trae、Copilot、Claude Code 使用经验丰富，熟悉插件、MCP 与 skills）；擅长剪辑与音乐制作；熟练使用 Office 办公软件（特别擅长 PPT 绘图）；钢琴十级
 
 #### 个人总结
-- 工作软实力：擅长团队沟通协作，组织能力强，善于提供情绪价值，抗压能力强
-- 知识面广：深入学习神经科学、人类学、哲学、博弈论等跨学科知识
-- 职业发展方向：希望持续接触前沿技术，为团队带来良好工作体验，实现个人与组织双向赋能
+- 工作软实力：擅长团队沟通协作，乐于交流；组织能力强，善于提供情绪价值；抗压能力强，为自我驱动型研究者。
+- 知识面广：深入学习神经科学、人类学、哲学、博弈论等跨学科知识，同时这些知识也能够赋能我对于技术的理解与应用。
+- 职业期待：希望持续接触前沿的技术，也能为团队带来良好工作体验，实现个人与组织双向赋能；同时希望致力于创造真正能够为社会带来一些积极改变的技术与项目，通过表达我的观点引发他人的思考，通过传递我的声音得到世界的回应，成为一个有思想、有温度、有能力的人。
 `,
-        awards: `- 华浔·运杰奖学金励志学生奖，2023.9
-- 2023-2024 年度华南理工大学学生军训先进个人，2024.1
-- ModelScope 社区大模型应用开发实战团队第一名，2025.2
-- 2025 年“深圳杯”数学建模挑战赛广东赛区一等奖，2025.6
+        awards: `- <span class="highlight-blue">2026 年美国大学生数学建模竞赛 ICM M 奖，2026.5</span>
 - 2025 年全国数学建模竞赛广东赛区一等奖，2025.10
 - 2025 年中国国际大学生创新大赛全国总决赛入围作品，2025.10
-- 2026 年美国大学生数学建模竞赛ICM M奖，2026.5
+- 2025 年“深圳杯”数学建模挑战赛广东赛区一等奖，2025.6
+- ModelScope 社区大模型应用开发实战团队第一名，2025.2
+- 2023-2024 年度华南理工大学学生军训先进个人，2024.1
+- 华浔·运杰奖学金励志学生奖，2023.9
 `,
         experience: `### 新闻传播 - 大模型跨学科研究（2024.5 - 至今）
 **研究方向**：新闻传播与大模型交叉研究，包括大语言模型价值对齐、多模态假新闻检测、多任务假新闻检测模型、智能体模拟假新闻传播、情感分析、幻觉研究、文本可读性分析。
@@ -305,11 +303,11 @@ Feel free to email me for additional materials or demos.
 **项目描述**：基于生成式人工智能生成格式化病案资料，解决病案撰写重复劳动、时效性滞后与质量不均等问题；通过深入医疗对话研究，开发 AIGC 算法，实现门诊病案自动化与智能化生成。
 
 **我的职责**：
-- 初期语音转文本（Whisper 模型）、Qwen 模型微调与 prompt 工程，提升病案文本规范性与合理性。
-- 本地梯子搭建与防火墙通行。
-- 中期数据批量检测与效果调优。
+- 初期语音转文本（Whisper 模型）、Qwen 模型微调与 prompt 工程。作为核心开发者之一，我在不断的模型迭代中提升了大模型生成病案文本规范性与合理性，使其可以被实际应用。
+- 数据批量检测与效果调优。通过搭建自动化的测试管道，大大增加了项目测试的效率。
+- 辅助环境部署、本地梯子搭建与防火墙通行。
 
-**成果与收获**：项目场景后期转向心理健康相关科室；获得跨职能与高结构化团队协作经验，熟悉工作报告与进度管理流程，并掌握基本 Linux 系统开发能力。
+**成果与收获**：项目场景后期转向心理健康相关科室，未来有机会在广州的大型医院推广应用；我在这个过程中熟悉了智慧健康领域的产品开发思路以及其领域特定的关注点，培养出开发既有强大技术支撑又能保证安全性与鲁棒性系统的的能力。同时也获得跨职能与高结构化团队协作经验，熟悉工作报告与进度管理流程，并掌握基本 Linux 系统开发能力。
 
 ---
 
@@ -347,20 +345,6 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 万帮星星充电科技有限公司充电桩选址项目（2025）
-**项目描述**：在同一导师团队参与企业充电桩选址项目；总结综述论文中的 CSLP 模型并完成展示。
-
----
-
-### 社团活动：CC 电影社团 - 放映组组长（2023.9 - 至今）
-**我的职责**：
-- 每周放映选片与主题月放映组织。
-- 参与广州高校联合观影活动组织与现场调度（每次约 200 人）。
-- 撰写影协公众号推文，参与短视频创作与采访活动。
-
-**成果与收获**：提升审美能力与组织协调能力。
-
-**个人豆瓣主页**：https://www.douban.com/people/227017213
 `,
                 publications: `#### 论文
 <ul class="pub-list">
@@ -401,6 +385,18 @@ Feel free to email me for additional materials or demos.
 - MoonPit（自建图片数据库的图片管理与搜索平台）
 
 如需查看更多材料或项目演示，可邮件联系我。
+
+---
+
+### 社团活动：CC 电影社团 - 放映组组长（2023.9 - 至今）
+**我的职责**：
+- 每周放映选片与主题月放映组织。
+- 参与广州高校联合观影活动组织与现场调度（每次约 200 人）。
+- 撰写影协公众号推文，参与短视频创作与采访活动。
+
+**成果与收获**：提升审美能力与组织协调能力。
+
+**个人豆瓣主页**：https://www.douban.com/people/227017213
 `
     }
 };
