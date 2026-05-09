@@ -10,11 +10,12 @@
 </div>
 
 #### 代表项目与代码
+- AIFrameQuest（以图搜图社区平台）：https://github.com/NoahIsARider/AIFrameQuest
+- ZhituCareer+（多智能体职业规划平台）：https://github.com/NoahIsARider/ZhituCareer
+- DLFaceDetection（RPC/远程函数调用示例）：https://github.com/NoahIsARider/DLFaceDetection
+- MatchaFlow (多智能体软件开发管理团队): https://github.com/NoahIsARider/MatchaFlow
 - WeSpeak（新闻传播/假新闻检测相关）：https://github.com/KGoinger/WeSpeak
 - Reptile（爬虫与数据处理）：https://github.com/NoahIsARider/Reptile
-- AIFrameQuest（以图搜图社区平台）：https://github.com/NoahIsARider/AIFrameQuest
-- ZhituCareer+（多 Agent 职业规划平台）：https://github.com/NoahIsARider/ZhituCareer
-- DLFaceDetection（RPC/远程函数调用示例）：https://github.com/NoahIsARider/DLFaceDetection
 - ReminisceneStone（UGC 回忆记录与共鸣平台）
 - MoonPit（自建图片数据库的图片管理与搜索平台）
 

@@ -10,11 +10,12 @@ Below are the portfolio materials and key project links. Both PDF and PPT versio
 </div>
 
 #### Featured Projects
-- WeSpeak (news communication / fake news detection): https://github.com/KGoinger/WeSpeak
-- Reptile (web crawling and data processing): https://github.com/NoahIsARider/Reptile
 - AIFrameQuest (image search community platform): https://github.com/NoahIsARider/AIFrameQuest
 - ZhituCareer+ (multi-agent career planning): https://github.com/NoahIsARider/ZhituCareer
 - DLFaceDetection (RPC / remote function call sample): https://github.com/NoahIsARider/DLFaceDetection
+- MatchaFlow (Multi-agent software development team): https://github.com/NoahIsARider/MatchaFlow
+- WeSpeak (news communication / fake news detection): https://github.com/KGoinger/WeSpeak
+- Reptile (web crawling and data processing): https://github.com/NoahIsARider/Reptile
 - ReminisceneStone (UGC memory recording and resonance platform)
 - MoonPit (professional image management and search with self-built databases)
 
