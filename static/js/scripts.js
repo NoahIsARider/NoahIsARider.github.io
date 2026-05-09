@@ -91,12 +91,12 @@ const contentByLang = {
 
 #### Education
 **South China University of Technology**, “Software Engineering + Business Administration” Dual Degree Pilot Program, Bachelor (2023.9 - 2027.6)  
-- Weighted Average Score: 92.13/100 (Ranked 1st in grade)  
-- GPA: 3.95/4.00 (Ranked 1st in grade)  
+- <span class="highlight-blue">Weighted Average Score: 92.13/100 (Ranked 1st in grade)</span>  
+- <span class="highlight-blue">GPA: 3.95/4.00 (Ranked 1st in grade)</span>  
 - Major Courses: Data Structures (95), Comprehensive Software Development Training (96), Advanced C++ Programming (90), Database Systems (94), Discrete Mathematics (94), Engineering Mathematical Analysis (93), Engineering Graphics (93), College Physics (100), Probability and Statistics (96), Circuit and Electronic Technology (99), Corporate Finance (98), Microeconomics (87), Macroeconomics (94), Principles of Management (91), etc.
 
 #### Academic Engagement
-- CET-4: 632/710, CET-6: 642/710, IELTS overall: 8.0/9.0
+- CET-4: 632/710, CET-6: 642/710, <span class="highlight-blue">IELTS overall: 8.0/9.0</span>
 - Attended 2024 International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI2024)
 - Participated in the 2025 Annual Conference on Intelligent and Computational Communication
 - Awarded a tuition-free place in the 2025 HKUST Summer School (English-taught, 4 spots university-wide)
@@ -253,12 +253,12 @@ Feel free to email me for additional materials or demos.
 
 #### 教育背景
 **华南理工大学**，“软件工程 + 工商管理”双学位试点项目，本科（2023.9 - 2027.6）  
-- 加权平均分：92.13/100（年级排名第 1）  
-- GPA：3.95/4.00（年级排名第 1）  
+- <span class="highlight-blue">加权平均分：92.13/100（年级排名第 1）</span>  
+- <span class="highlight-blue">GPA：3.95/4.00（年级排名第 1）</span>  
 - 主要课程：数据结构（95）、软件开发综合实训（96）、C++高级语言编程（90）、数据库系统（94）、离散数学（94）、工科数学分析（93）、工程制图（93）、大学物理（100）、概率论与数理统计（96）、电路与电子技术（99）、财务管理（98）、微观经济学（87）、宏观经济学（94）、管理学原理（91）等
 
 #### 学术与交流
-- CET-4：632/710，CET-6：642/710，雅思总分：8.0/9.0
+- CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思总分：8.0/9.0</span>
 - 参加 2024 年计算机科学、电子信息工程和智能控制技术国际会议（CEI2024）（有参会证明）
 - 参与 2025 年智能与计算传播学年会
 - 获得 2025 年香港科技大学暑期学校项目免学费名额（全英授课，全校四个名额）

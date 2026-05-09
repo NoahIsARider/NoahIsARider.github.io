@@ -237,4 +237,12 @@ section .main-body{
     color: var(--h-title-color);
 }
 
+.highlight-blue {
+    background-color: rgba(120, 190, 255, 0.35);
+    border-radius: 0.35rem;
+    padding: 0.05rem 0.35rem;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
 
