@@ -297,7 +297,7 @@ Feel free to email me for additional materials or demos.
     zh: {
         home: `**姓名**：周方亚诺（英文名 Noah Zhou）  
 **电话**：18779261101  
-**邮箱**：1966322816@qq.com  
+**邮箱**：noahchou2005@gmail.com  
 **微信**：zfyn18779261101  
 **项目网站**：https://github.com/NoahIsARider  
 **现居城市**：广东广州  
