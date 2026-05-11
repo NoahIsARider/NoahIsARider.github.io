@@ -227,6 +227,34 @@ section .main-body{
     color: #ffffff;
 }
 
+.theme-fab {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 11000;
+    border: 1px solid var(--h-title-color);
+    background: var(--surface-color);
+    color: var(--h-title-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    transition: all 0.2s ease-in-out;
+}
+
+.theme-fab:hover {
+    background: var(--h-title-color);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 991px) {
+    .theme-fab {
+        right: 0.9rem;
+        bottom: 0.9rem;
+    }
+}
+
 .portfolio-embed {
     margin: 1.5rem 0;
     border: 1px solid var(--border-color);
@@ -303,6 +331,13 @@ body.theme-dark #mainNav .navbar-toggler .bi-list {
 
 body.theme-dark #navbarResponsive {
     background-color: var(--surface-color);
+}
+
+body.theme-dark .theme-fab {
+    border-color: var(--h-title-color);
+    background: var(--surface-color);
+    color: var(--h-title-color);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
 }
 
 body.theme-dark .main-body,
