@@ -652,7 +652,7 @@ const getInitialTheme = () => {
         return stored;
     }
 
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'light';
 };
 
 const resolveConfigValue = (value, lang) => {
