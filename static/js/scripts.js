@@ -299,7 +299,7 @@ Feel free to email me for additional materials or demos.
 **电话**：18779261101  
 **邮箱**：1966322816@qq.com  
 **微信**：zfyn18779261101  
-**个人网站**：https://github.com/NoahIsARider  
+**项目网站**：https://github.com/NoahIsARider  
 **现居城市**：广东广州  
 **籍贯**：江西九江  
 **生日**：2005-06  
