@@ -1,4 +1,15 @@
 const supportedLangs = ['en', 'zh'];
+const supportedThemes = ['light', 'dark'];
+const themeButtonText = {
+    en: {
+        light: '<i class="bi bi-moon-stars-fill"></i> Dark',
+        dark: '<i class="bi bi-sun-fill"></i> Light'
+    },
+    zh: {
+        light: '<i class="bi bi-moon-stars-fill"></i> 深色',
+        dark: '<i class="bi bi-sun-fill"></i> 浅色'
+    }
+};
 const sections = [
     { id: 'home', fileBase: 'home' },
     { id: 'awards', fileBase: 'awards' },
@@ -424,6 +435,9 @@ Feel free to email me for additional materials or demos.
     }
 };
 
+let currentLang = 'en';
+let currentTheme = 'light';
+
 const getInitialLang = () => {
     const stored = localStorage.getItem('lang');
     if (supportedLangs.includes(stored)) {
@@ -432,6 +446,15 @@ const getInitialLang = () => {
 
     const browserLang = (navigator.language || '').toLowerCase();
     return browserLang.startsWith('zh') ? 'zh' : 'en';
+};
+
+const getInitialTheme = () => {
+    const stored = localStorage.getItem('theme');
+    if (supportedThemes.includes(stored)) {
+        return stored;
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 };
 
 const resolveConfigValue = (value, lang) => {
@@ -495,14 +518,47 @@ const setActiveLangButton = (lang) => {
     }
 };
 
+const setThemeToggleText = (theme, lang) => {
+    const toggleButton = document.getElementById('theme-toggle');
+    if (!toggleButton) {
+        return;
+    }
+
+    const textByLang = themeButtonText[lang] ?? themeButtonText.en;
+    const label = textByLang[theme] ?? textByLang.light;
+    toggleButton.innerHTML = label;
+};
+
+const applyTheme = (theme) => {
+    const selected = supportedThemes.includes(theme) ? theme : 'light';
+    currentTheme = selected;
+    localStorage.setItem('theme', selected);
+    document.body.classList.toggle('theme-dark', selected === 'dark');
+    setThemeToggleText(selected, currentLang);
+};
+
+const initThemeSwitcher = () => {
+    const toggleButton = document.getElementById('theme-toggle');
+    if (toggleButton) {
+        toggleButton.addEventListener('click', () => {
+            const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            applyTheme(nextTheme);
+        });
+    }
+
+    applyTheme(getInitialTheme());
+};
+
 const initLanguageSwitcher = () => {
     const applyLanguage = (lang) => {
         const selected = supportedLangs.includes(lang) ? lang : 'en';
+        currentLang = selected;
         localStorage.setItem('lang', selected);
         document.documentElement.lang = selected;
         applyConfig(config, selected);
         setActiveLangButton(selected);
         loadAllSections(selected);
+        setThemeToggleText(currentTheme, selected);
     };
 
     const zhButton = document.getElementById('lang-zh');
@@ -542,4 +598,5 @@ window.addEventListener('DOMContentLoaded', () => {
     marked.use({ mangle: false, headerIds: false });
 
     initLanguageSwitcher();
+    initThemeSwitcher();
 });
