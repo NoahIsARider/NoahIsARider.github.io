@@ -251,7 +251,22 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
     <li>Patent pending (expected approval in 2026.9-2026.10)</li>
 </ul>
 `,
-        extracurricular: `### CC Film Club - Projection Team Leader (2023.9 - Present)
+        extracurricular: `### China Mobile Big Data Enterprise Training (2026.5.22 - 2026.7.5)
+**Project Overview**: Built a big-data decision-support system for China Mobile enterprise training. The core scenario focused on merchant site selection, while the overall framework was also applicable to commercial district tenant acquisition, campaign operations, and public services. The agent interaction and UI were specifically optimized for site-selection analysis.
+
+**Technical Highlights**:
+- Designed core functions including user counting under profile constraints, detailed profile queries, profile distribution statistics, agent-based question answering, and sequence-based crowd visit analysis across multiple designated regions.
+- Extended the scenario with heatmaps, trajectory replay, and funnel analysis for regional conversion, and further challenged the original course requirement by enabling dynamic route updates on the frontend instead of relying only on target_region.txt.
+- Worked with a full big-data software stack including Flume, Kafka, Flink, HBase, Spark, HDFS, and ClickHouse, and highlighted Docker-based deployment together with an enterprise-provided CentOS virtual-machine solution.
+
+**Deliverables & Outcomes**:
+- Delivered requirement, design, testing, summary, and weekly Tencent Meeting discussion documents.
+- Managed version control on GitHub with 14 branches, 9 pull requests, and 44 commits on the main branch.
+- Project website: https://github.com/NoahIsARider/Bigdata-Final-System
+
+---
+
+### CC Film Club - Projection Team Leader (2023.9 - Present)
 **My Responsibilities**:
 - Weekly film selection and themed screening organization.
 - On-site coordination for Guangzhou university joint screenings (about 200 participants each).
@@ -418,7 +433,22 @@ Feel free to email me for additional materials or demos.
     <li>专利申请中（预计 2026 年 9-10 月通过）</li>
 </ul>
 `,
-        extracurricular: `### 社团活动：CC 电影社团 - 放映组组长（2023.9 - 至今）
+        extracurricular: `### 大数据企业实训（中国移动，2026.5.22 - 2026.7.5）
+**项目概述**：围绕中国移动企业实训，构建面向大数据分析的决策支持系统。我们以“商家选址”作为核心场景深化，同时说明系统也可拓展用于商圈招商、活动运营和公共服务；其中智能体交互与前端 UI 重点针对商家选址分析进行了优化。
+
+**技术亮点**：
+- 围绕课程需求实现五类核心能力：统计指定区域内满足画像条件的用户数、查询指定区域内画像用户明细、统计区域内用户画像分布、智能体问答，以及难度最高的“指定区域序列访问人群分析”。
+- 在课程要求基础上进一步扩展了热力图、轨迹回放、漏斗图等功能，并突破仅依赖 target_region.txt 的原始方案，支持用户在前端动态修改目标地点路径。
+- 系统设计突出大数据软件栈与工程化部署能力，使用了 Flume、Kafka、Flink、HBase、Spark、HDFS、ClickHouse 等大数据软件，并重点采用 Docker 进行部署，同时提供企业虚拟机 CentOS 环境下的部署方案。
+
+**交付物与成果**：
+- 形成需求、设计、测试、总结文档，以及每周腾讯会议转录讨论文档。
+- 在 GitHub 上完成版本管理：小组共创建 14 条分支、发出 9 次 Pull Request，并在主分支提交 44 个 commit。
+- 项目网址：https://github.com/NoahIsARider/Bigdata-Final-System
+
+---
+
+### 社团活动：CC 电影社团 - 放映组组长（2023.9 - 至今）
 **我的职责**：
 - 每周放映选片与主题月放映组织。
 - 参与广州高校联合观影活动组织与现场调度（每次约 200 人）。
@@ -585,7 +615,22 @@ Feel free to email me for additional materials or demos.
     <li>專利申請中（預計 2026 年 9-10 月通過）</li>
 </ul>
 `,
-        extracurricular: `### 社團活動：CC 電影社團 - 放映組組長（2023.9 - 至今）
+        extracurricular: `### 大數據企業實訓（中國移動，2026.5.22 - 2026.7.5）
+**項目概述**：圍繞中國移動企業實訓，構建面向大數據分析的決策支援系統。我們以「商家選址」作為核心場景深化，同時說明系統亦可延伸用於商圈招商、活動營運和公共服務；其中智能體互動與前端 UI 亦特別針對商家選址分析作出優化。
+
+**技術亮點**：
+- 圍繞課程需求實現五類核心能力：統計指定區域內符合畫像條件的用戶數、查詢指定區域內畫像用戶明細、統計區域內用戶畫像分佈、智能體問答，以及難度最高的「指定區域序列訪問人群分析」。
+- 在課程要求基礎上進一步擴展了熱力圖、軌跡回放、漏斗圖等功能，並突破僅依賴 target_region.txt 的原始方案，支持用戶在前端動態修改目標地點路徑。
+- 系統設計突出大數據軟件棧與工程化部署能力，使用了 Flume、Kafka、Flink、HBase、Spark、HDFS、ClickHouse 等大數據軟件，並重點採用 Docker 進行部署，同時提供企業虛擬機 CentOS 環境下的部署方案。
+
+**交付物與成果**：
+- 形成需求、設計、測試、總結文件，以及每週騰訊會議轉錄討論文件。
+- 在 GitHub 上完成版本管理：小組共建立 14 條分支、發出 9 次 Pull Request，並在主分支提交 44 個 commit。
+- 項目網址：https://github.com/NoahIsARider/Bigdata-Final-System
+
+---
+
+### 社團活動：CC 電影社團 - 放映組組長（2023.9 - 至今）
 **我的職責**：
 - 每週放映選片與主題月放映組織。
 - 參與廣州高校聯合觀影活動組織與現場調度（每次約 200 人）。
