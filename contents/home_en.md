@@ -9,7 +9,7 @@
 
 #### Education
 **South China University of Technology**, “Software Engineering + Business Administration” Dual Degree Pilot Program, Bachelor (2023.9 - 2027.6)  
-- Weighted Average Score: 92.13/100 (Ranked 1st in grade)  
+- Weighted Average Score: 92.24/100 (Ranked 1st in grade)  
 - GPA: 3.95/4.00 (Ranked 1st in grade)  
 - Major Courses: Data Structures (95), Comprehensive Software Development Training (96), Advanced C++ Programming (90), Database Systems (94), Discrete Mathematics (94), Engineering Mathematical Analysis (93), Engineering Graphics (93), College Physics (100), Probability and Statistics (96), Circuit and Electronic Technology (99), Corporate Finance (98), Microeconomics (87), Macroeconomics (94), Principles of Management (91), etc.
 

@@ -139,7 +139,7 @@ const contentByLang = {
 
 #### Education
 **South China University of Technology**, “Software Engineering + Business Administration” Dual Degree Pilot Program, Bachelor (2023.9 - 2027.6)  
-- <span class="highlight-blue">Weighted Average Score: 92.13/100 (Ranked 1st in grade)</span>  
+- <span class="highlight-blue">Weighted Average Score: 92.24/100 (Ranked 1st in grade)</span>  
 - <span class="highlight-blue">GPA: 3.95/4.00 (Ranked 1st in grade)</span>  
 - Major Courses: Data Structures (95), Comprehensive Software Development Training (96), Advanced C++ Programming (90), Database Systems (94), Discrete Mathematics (94), Engineering Mathematical Analysis (93), Engineering Graphics (93), College Physics (100), Probability and Statistics (96), Circuit and Electronic Technology (99), Corporate Finance (98), Microeconomics (87), Macroeconomics (94), Principles of Management (91), etc.
 
@@ -321,7 +321,7 @@ Feel free to email me for additional materials or demos.
 
 #### 教育背景
 **华南理工大学**，“软件工程 + 工商管理”双学位试点项目，本科（2023.9 - 2027.6）  
-- <span class="highlight-blue">加权平均分：92.13/100（年级排名第 1）</span>  
+- <span class="highlight-blue">加权平均分：92.24/100（年级排名第 1）</span>  
 - <span class="highlight-blue">GPA：3.95/4.00（年级排名第 1）</span>  
 - 主要课程：数据结构（95）、软件开发综合实训（96）、C++高级语言编程（90）、数据库系统（94）、离散数学（94）、工科数学分析（93）、工程制图（93）、大学物理（100）、概率论与数理统计（96）、电路与电子技术（99）、财务管理（98）、微观经济学（87）、宏观经济学（94）、管理学原理（91）等
 
@@ -503,7 +503,7 @@ Feel free to email me for additional materials or demos.
 
 #### 教育背景
 **華南理工大學**，「軟件工程 + 工商管理」雙學位試點項目，本科（2023.9 - 2027.6）  
-- <span class="highlight-blue">加權平均分：92.13/100（年級排名第 1）</span>  
+- <span class="highlight-blue">加權平均分：92.24/100（年級排名第 1）</span>  
 - <span class="highlight-blue">GPA：3.95/4.00（年級排名第 1）</span>  
 - 主要課程：數據結構（95）、軟件開發綜合實訓（96）、C++高級語言編程（90）、數據庫系統（94）、離散數學（94）、工科數學分析（93）、工程製圖（93）、大學物理（100）、概率論與數理統計（96）、電路與電子技術（99）、財務管理（98）、微觀經濟學（87）、宏觀經濟學（94）、管理學原理（91）等
 
