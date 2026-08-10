@@ -144,7 +144,7 @@ const contentByLang = {
 - Major Courses: Data Structures (95), Comprehensive Software Development Training (96), Advanced C++ Programming (90), Database Systems (94), Discrete Mathematics (94), Engineering Mathematical Analysis (93), Engineering Graphics (93), College Physics (100), Probability and Statistics (96), Circuit and Electronic Technology (99), Corporate Finance (98), Microeconomics (87), Macroeconomics (94), Principles of Management (91), etc.
 
 #### Academic Engagement
-- CET-4: 632/710, CET-6: 642/710, <span class="highlight-blue">IELTS overall: 8.0/9.0</span>
+- CET-4: 632/710, CET-6: 642/710, <span class="highlight-blue">IELTS overall: 8.0/9.0, GRE: Verbal 161/170, Quantitative 170/170</span>
 - Attended 2024 International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI2024)
 - Participated in the 2025 Annual Conference on Intelligent and Computational Communication
 - Awarded a tuition-free place in the 2025 HKUST Summer School (English-taught, 4 spots university-wide)
@@ -326,7 +326,7 @@ Feel free to email me for additional materials or demos.
 - 主要课程：数据结构（95）、软件开发综合实训（96）、C++高级语言编程（90）、数据库系统（94）、离散数学（94）、工科数学分析（93）、工程制图（93）、大学物理（100）、概率论与数理统计（96）、电路与电子技术（99）、财务管理（98）、微观经济学（87）、宏观经济学（94）、管理学原理（91）等
 
 #### 学术与交流
-- CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思总分：8.0/9.0</span>
+- CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思总分：8.0/9.0，GRE：Verbal 161/170，Quantitative 170/170</span>
 - 参加 2024 年计算机科学、电子信息工程和智能控制技术国际会议（CEI2024）（有参会证明）
 - 参与 2025 年智能与计算传播学年会
 - 获得 2025 年香港科技大学暑期学校项目免学费名额（全英授课，全校四个名额）
@@ -508,7 +508,7 @@ Feel free to email me for additional materials or demos.
 - 主要課程：數據結構（95）、軟件開發綜合實訓（96）、C++高級語言編程（90）、數據庫系統（94）、離散數學（94）、工科數學分析（93）、工程製圖（93）、大學物理（100）、概率論與數理統計（96）、電路與電子技術（99）、財務管理（98）、微觀經濟學（87）、宏觀經濟學（94）、管理學原理（91）等
 
 #### 學術與交流
-- CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思總分：8.0/9.0</span>
+- CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思總分：8.0/9.0，GRE：Verbal 161/170，Quantitative 170/170</span>
 - 參加 2024 年計算機科學、電子信息工程和智能控制技術國際會議（CEI2024）（有參會證明）
 - 參與 2025 年智能與計算傳播學年會
 - 獲得 2025 年香港科技大學暑期學校項目免學費名額（全英授課，全校四個名額）
