@@ -678,8 +678,26 @@ Feel free to email me for additional materials or demos.
 let currentLang = 'en';
 let currentTheme = 'light';
 
+// Safe localStorage access: Firefox (and some privacy modes) throw
+// NS_ERROR_FAILURE when storage is blocked. Never let that kill the page.
+const safeGet = (key) => {
+    try {
+        return localStorage.getItem(key);
+    } catch {
+        return null;
+    }
+};
+
+const safeSet = (key, value) => {
+    try {
+        localStorage.setItem(key, value);
+    } catch {
+        // storage unavailable — degrade gracefully (theme/lang just won't persist)
+    }
+};
+
 const getInitialLang = () => {
-    const stored = localStorage.getItem('lang');
+    const stored = safeGet('lang');
     if (supportedLangs.includes(stored)) {
         return stored;
     }
@@ -692,7 +710,7 @@ const getInitialLang = () => {
 };
 
 const getInitialTheme = () => {
-    const stored = localStorage.getItem('theme');
+    const stored = safeGet('theme');
     if (supportedThemes.includes(stored)) {
         return stored;
     }
@@ -782,7 +800,7 @@ const setThemeToggleText = (theme, lang) => {
 const applyTheme = (theme) => {
     const selected = supportedThemes.includes(theme) ? theme : 'light';
     currentTheme = selected;
-    localStorage.setItem('theme', selected);
+    safeSet('theme', selected);
     document.body.classList.toggle('theme-dark', selected === 'dark');
     setThemeToggleText(selected, currentLang);
 };
@@ -803,7 +821,7 @@ const initLanguageSwitcher = () => {
     const applyLanguage = (lang) => {
         const selected = supportedLangs.includes(lang) ? lang : 'en';
         currentLang = selected;
-        localStorage.setItem('lang', selected);
+        safeSet('lang', selected);
         document.documentElement.lang = selected;
         applyConfig(config, selected);
         setActiveLangButton(selected);
