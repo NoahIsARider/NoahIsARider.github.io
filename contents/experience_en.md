@@ -1,4 +1,5 @@
-### Interdisciplinary Research on News Communication and Large Models (2024.5 - Present)
+### Interdisciplinary Research on News Communication and Large Models, Research Assistant (2024.5 - Present)
+**Supervisor**: Associate Professor Quanyi ZOU
 **Focus**: News communication and large-model research including LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based news dissemination simulation, sentiment analysis, hallucination research, and text readability analysis.
 
 **My Responsibilities**:
@@ -14,7 +15,21 @@
 
 ---
 
-### AIGC Medical Case Generation Project (2024.7 - 2024.12)
+### Multimodal AI Mental Health Coaching System, Research Assistant (2026.5 - Present)
+**Supervisor**: Associate Professor Yuanyuan DANG
+**Introduction**: Developing a multimodal AI psychological coaching system for college students, with a rigorous randomized controlled trial to evaluate its causal intervention effect on students' mental health. The project integrates large language models, multimodal perception technology, and evidence-based psychological intervention methods.
+
+**My Responsibilities**:
+- Developed a Linux-deployed AI coaching system integrating multiple RAG knowledge bases and MCP-based tool interfaces.
+- Contributed to the randomized controlled trial design evaluating the causal effects of AI-assisted interventions on university students' mental health.
+- Contributed to system implementation and manuscript preparation.
+
+**Achievements**: Connected with excellent senior students and maintained ongoing cooperation; enriched experience in cross-functional and highly structured teams.
+
+---
+
+### AIGC Medical Case Generation Project, Developer (2024.7 - 2024.12)
+**Supervisor**: Associate Professor Yuanyuan DANG
 **Introduction**: Built generative AI to produce structured medical records, reducing repetitive work, delays, and quality inconsistency. Focused on medical dialogue modeling to enable automatic outpatient record generation.
 
 **My Responsibilities**:
@@ -26,7 +41,7 @@
 
 ---
 
-### Mining Simulation and Analysis of Tourism Trajectory Data (2025.8 - Present)
+### Mining Simulation and Analysis of Tourism Trajectory Data, Developer (2025.8 - Present)
 **Introduction**: Built a visitor behavior simulation platform using Python and Vue with official platform data plus web-crawled data, exploring social media impact on travel route choices.
 
 **My Responsibilities**:
@@ -37,21 +52,7 @@
 
 ---
 
-### ZhituCareer+ Project & AIFrameQuest Image Search Series (2025.5 - 2025.7)
-**Introduction**:
-- ZhituCareer+: A career planning web platform featuring multi-agent decision making.
-- AIFrameQuest: A modern community discussion platform built with Flask and Vue, supporting authentication, content management, and image search (Faiss vector search with Bert feature extraction), featuring a modern design.
-- Spin-offs: ReminisceneStone (UGC-based memory recording and resonance platform) and MoonPit (professional image management and search platform with self-built databases).
-
-**Tech Stack**: Python / Flask / JavaScript / MySQL / Vue
-
-**My Responsibilities**: Led core deep learning module development (front-end and back-end), integrated submodules, participated in front-end and concept design, and coordinated team work allocation.
-
-**Achievements**: Ranked 1st in the course; open-source projects: https://github.com/NoahIsARider/AIFrameQuest , https://github.com/NoahIsARider/ZhituCareer
-
----
-
-### Agricultural Automatic Evaluation R&D Project (2025.7 - 2026.2)
+### Agricultural Automatic Evaluation R&D Project, Developer (2025.7 - 2026.2)
 **Introduction**: Applied computer vision to evaluate livestock breeding effects; built a custom data annotation platform; trained YOLO models for target weight recognition.
 
 **My Responsibilities**: Researched and implemented keyframe recognition algorithms; used YOLOn11pose to address livestock body keypoint recognition challenges.
@@ -74,3 +75,14 @@
 **Achievements**: Enhanced aesthetic ability and organizational coordination skills.
 
 **Douban**: https://www.douban.com/people/227017213
+
+---
+
+### Extracurricular: Lianshan County Field Research (2026.8)
+**Introduction**: Arranged by Prof. Dang, joined the 2nd research group for a summer field research trip to Lianshan County, Qingyuan, Guangdong (led by Prof. Lai Chao'an).
+
+**Research Scope**:
+- Visited government departments: County Federation of Industry and Commerce (General Chamber of Commerce), Agriculture and Rural Affairs Bureau, Lianshan Branch of Ecology and Environment Bureau, and Development, Reform, Industry, Information, Technology & Commerce Bureau.
+- Investigated industrial entities: Simiao Rice Provincial Industrial Park, Rice-Vegetable-Tea Provincial Modern Agriculture Industrial Park, Zhuangyaobao Ecological Industry, etc.
+
+**Achievements**: Gained hands-on experience in county-level industry and policy implementation, plus field research, government-enterprise communication, and multi-department coordination skills.
