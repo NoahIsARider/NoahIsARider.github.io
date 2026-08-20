@@ -18,5 +18,8 @@ Below are the portfolio materials and key project links. Both PDF and PPT versio
 - Reptile (web crawling and data processing): https://github.com/NoahIsARider/Reptile
 - ReminisceneStone (UGC memory recording and resonance platform)
 - MoonPit (professional image management and search with self-built databases)
+- Open Stethoscope (heart sound AI murmur detection for grassroots healthcare): https://github.com/NoahIsARider/open-stethoscope
+- Crusaders (human-machine collaboration framework): https://github.com/NoahIsARider/Crusaders
+- memreview (local-first agent memory with spaced repetition): https://github.com/NoahIsARider/memreview
 
 Feel free to email me for additional materials or demos.

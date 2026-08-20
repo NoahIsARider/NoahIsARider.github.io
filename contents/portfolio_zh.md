@@ -18,5 +18,8 @@
 - Reptile（爬虫与数据处理）：https://github.com/NoahIsARider/Reptile
 - ReminisceneStone（UGC 回忆记录与共鸣平台）
 - MoonPit（自建图片数据库的图片管理与搜索平台）
+- Open Stethoscope（心音 AI 杂音检测，面向基层医疗）：https://github.com/NoahIsARider/open-stethoscope
+- Crusaders（人机协作 HMC 框架）：https://github.com/NoahIsARider/Crusaders
+- memreview（本地优先的 Agent 记忆与间隔重复）：https://github.com/NoahIsARider/memreview
 
 如需查看更多材料或项目演示，可邮件联系我。
