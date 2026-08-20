@@ -1,4 +1,4 @@
-### Interdisciplinary Research on News Communication and Large Models (2024.5 - Present)
+### Interdisciplinary Research on News Communication and Large Models, *Research Assistant* (2024.5 - Present)
 **Supervisor**: [Associate Professor Quanyi ZOU](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
 
 **Focus**: News communication and large-model research including LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based news dissemination simulation, sentiment analysis, hallucination research, and text readability analysis.
@@ -16,7 +16,7 @@
 
 ---
 
-### Multimodal AI Mental Health Coaching System (2026.5 - Present)
+### Multimodal AI Mental Health Coaching System, *Research Assistant* (2026.5 - Present)
 **Supervisor**: [Associate Professor Yuanyuan DANG](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
 
 **Introduction**: Developing a multimodal AI psychological coaching system for college students, with a rigorous randomized controlled trial to evaluate its causal intervention effect on students' mental health. The project integrates large language models, multimodal perception technology, and evidence-based psychological intervention methods.
@@ -30,7 +30,7 @@
 
 ---
 
-### AIGC Medical Case Generation Project (2024.7 - 2024.12)
+### AIGC Medical Case Generation Project, *Developer* (2024.7 - 2024.12)
 **Supervisor**: [Associate Professor Yuanyuan DANG](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
 
 **Introduction**: Built generative AI to produce structured medical records, reducing repetitive work, delays, and quality inconsistency. Focused on medical dialogue modeling to enable automatic outpatient record generation.
@@ -44,7 +44,7 @@
 
 ---
 
-### Mining Simulation and Analysis of Tourism Trajectory Data (2025.8 - Present)
+### Mining Simulation and Analysis of Tourism Trajectory Data, *Developer* (2025.8 - Present)
 **Supervisor**: [Associate Professor Zikun DENG](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
 
 **Introduction**: Built a visitor behavior simulation platform using Python and Vue with official platform data plus web-crawled data, exploring social media impact on travel route choices.
@@ -57,7 +57,7 @@
 
 ---
 
-### Agricultural Automatic Evaluation R&D Project (2025.7 - 2026.2)
+### Agricultural Automatic Evaluation R&D Project, *Developer* (2025.7 - 2026.2)
 **Introduction**: Applied computer vision to evaluate livestock breeding effects; built a custom data annotation platform; trained YOLO models for target weight recognition.
 
 **My Responsibilities**: Researched and implemented keyframe recognition algorithms; used YOLOn11pose to address livestock body keypoint recognition challenges.
