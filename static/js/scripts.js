@@ -172,7 +172,8 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 - Motivational Student Award, Hua Xun · Yun Jie Scholarship, 2023.9
 `,
         experience: `### Interdisciplinary Research on News Communication and Large Models, *Research Assistant* (2024.5 - Present)
-**Supervisor**: Associate Professor Quanyi ZOU
+**Supervisor**: [Associate Professor Quanyi ZOU](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
+
 **Focus**: Interdisciplinary research at the intersection of news communication and large models, including LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based fake news dissemination simulation, sentiment analysis, hallucination research, and text readability analysis. It also includes recommender-system-related fake news studies, such as text-level comparisons between generative recommender systems and traditional recommender systems, and the propagation effects of fake news within recommender systems.
 
 **My Responsibilities**:
@@ -189,7 +190,8 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 ---
 
 ### Multimodal AI Mental Health Coaching System, *Research Assistant* (2026.5 - Present)
-**Supervisor**: Associate Professor Yuanyuan DANG
+**Supervisor**: [Associate Professor Yuanyuan DANG](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **Introduction**: Developing a multimodal AI psychological coaching system for college students, with a rigorous randomized controlled trial to evaluate its causal intervention effect on students' mental health. The project integrates large language models, multimodal perception technology, and evidence-based psychological intervention methods.
 
 **My Responsibilities**:
@@ -202,7 +204,8 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 ---
 
 ### AIGC Medical Case Generation Project, *Developer* (2024.7 - 2024.12)
-**Supervisor**: Associate Professor Yuanyuan DANG
+**Supervisor**: [Associate Professor Yuanyuan DANG](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **Introduction**: Built generative AI to produce structured medical records, reducing repetitive work, delays, and quality inconsistency. Focused on medical dialogue modeling to enable automatic outpatient record generation.
 
 **My Responsibilities**:
@@ -215,6 +218,8 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 ---
 
 ### Mining Simulation and Analysis of Tourism Trajectory Data, *Developer* (2025.8 - Present)
+**Supervisor**: [Associate Professor Zikun DENG](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
+
 **Introduction**: Built a visitor behavior simulation platform using Python and Vue with official platform data plus web-crawled data, exploring social media impact on travel route choices.
 
 **My Responsibilities**:
@@ -369,7 +374,8 @@ Feel free to email me for additional materials or demos.
 - 华浔·运杰奖学金励志学生奖，2023.9
 `,
         experience: `### 新闻传播 - 大模型跨学科研究，*研究助理*（2024.5 - 至今）
-**指导教师**：邹全义副教授
+**指导教师**：[邹全义](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
+
 **研究方向**：新闻传播与大模型交叉研究，包括大语言模型价值对齐、多模态假新闻检测、多任务假新闻检测模型、智能体模拟假新闻传播、情感分析、幻觉研究、文本可读性分析。同时也有推荐系统与假新闻的相关研究，比如生成式推荐系统与传统推荐系统的文本对比和假新闻在推荐系统中的传播效果研究。
 
 **我的职责**：
@@ -386,7 +392,8 @@ Feel free to email me for additional materials or demos.
 ---
 
 ### 多模态 AI 心理健康辅导系统，*研究助理*（2026.5 - 至今）
-**指导教师**：党媛媛副教授
+**指导教师**：[党媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **项目描述**：面向大学生开发多模态 AI 心理辅导系统，并通过严格的随机对照试验评估其对大学生心理健康的因果干预效果；项目整合大语言模型、多模态感知技术与循证心理干预方法。
 
 **我的职责**：
@@ -399,7 +406,8 @@ Feel free to email me for additional materials or demos.
 ---
 
 ### 智慧医疗 AIGC 病案资料生成项目，*开发者*（2024.7 - 2024.12）
-**指导教师**：党媛媛副教授
+**指导教师**：[党媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **项目描述**：基于生成式人工智能生成格式化病案资料，解决病案撰写重复劳动、时效性滞后与质量不均等问题；通过深入医疗对话研究，开发 AIGC 算法，实现门诊病案自动化与智能化生成。
 
 **我的职责**：
@@ -412,6 +420,8 @@ Feel free to email me for additional materials or demos.
 ---
 
 ### 旅游轨迹数据的挖掘模拟与分析，*开发者*（2025.8 - 至今）
+**指导教师**：[邓紫坤](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
+
 **项目描述**：结合官方平台与爬虫数据，构建基于 Python 与 Vue 的游客行为模拟平台，研究社交媒体是否影响游客路线选择。
 
 **我的职责**：
@@ -566,7 +576,8 @@ Feel free to email me for additional materials or demos.
 - 華潯·運傑獎學金勵志學生獎，2023.9
 `,
         experience: `### 新聞傳播 - 大模型跨學科研究，*研究助理*（2024.5 - 至今）
-**指導教師**：鄒全意副教授
+**指導教師**：[鄒全義](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
+
 **研究方向**：新聞傳播與大模型交叉研究，包括大語言模型價值對齊、多模態假新聞檢測、多任務假新聞檢測模型、智能體模擬假新聞傳播、情感分析、幻覺研究、文本可讀性分析。同時亦有推薦系統與假新聞的相關研究，例如生成式推薦系統與傳統推薦系統的文本對比，以及假新聞在推薦系統中的傳播效果研究。
 
 **我的職責**：
@@ -583,7 +594,8 @@ Feel free to email me for additional materials or demos.
 ---
 
 ### 多模態 AI 心理健康輔導系統，*研究助理*（2026.5 - 至今）
-**指導教師**：黨媛媛副教授
+**指導教師**：[黨媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **項目描述**：面向大學生開發多模態 AI 心理輔導系統，並通過嚴格的隨機對照試驗評估其對大學生心理健康的因果干預效果；項目整合大語言模型、多模態感知技術與循證心理干預方法。
 
 **我的職責**：
@@ -596,7 +608,8 @@ Feel free to email me for additional materials or demos.
 ---
 
 ### 智慧醫療 AIGC 病案資料生成項目，*開發者*（2024.7 - 2024.12）
-**指導教師**：黨媛媛副教授
+**指導教師**：[黨媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **項目描述**：基於生成式人工智能生成格式化病案資料，解決病案撰寫重複勞動、時效性滯後與質量不均等問題；通過深入醫療對話研究，開發 AIGC 算法，實現門診病案自動化與智能化生成。
 
 **我的職責**：
@@ -609,6 +622,8 @@ Feel free to email me for additional materials or demos.
 ---
 
 ### 旅遊軌跡數據的挖掘模擬與分析，*開發者*（2025.8 - 至今）
+**指導教師**：[鄧紫坤](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
+
 **項目描述**：結合官方平台與爬蟲數據，構建基於 Python 與 Vue 的遊客行為模擬平台，研究社交媒體是否影響遊客路線選擇。
 
 **我的職責**：
