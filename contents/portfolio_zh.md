@@ -20,6 +20,7 @@
 - MoonPit（自建图片数据库的图片管理与搜索平台）
 - Open Stethoscope（心音 AI 杂音检测，面向基层医疗）：https://github.com/NoahIsARider/open-stethoscope
 - Crusaders（人机协作 HMC 框架）：https://github.com/NoahIsARider/Crusaders
-- memreview（本地优先的 Agent 记忆与间隔重复）：https://github.com/NoahIsARider/memreview
+- RecRedTeam（LLM/智能体推荐系统红队审计框架）：https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov（链上 DAO 治理实证研究工具链，含因果推断）：https://github.com/NoahIsARider/OnChainGov
 
 如需查看更多材料或项目演示，可邮件联系我。

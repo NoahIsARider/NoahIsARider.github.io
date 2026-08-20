@@ -130,7 +130,7 @@ const contentByLang = {
     en: {
         home: `**Name**: Zhou Fangyanuo (Preferred name: Noah Zhou)  
 **Phone**: 18779261101  
-**Email**: 1966322816@qq.com  
+**Email**: noahchou2005@gmail.com  
 **WeChat**: zfyn18779261101  
 **Website**: https://github.com/NoahIsARider  
 **Current City**: Guangdong, Guangzhou  
@@ -318,7 +318,8 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 - MoonPit (professional image management and search with self-built databases)
 - Open Stethoscope (heart sound AI murmur detection for grassroots healthcare): https://github.com/NoahIsARider/open-stethoscope
 - Crusaders (human-machine collaboration framework): https://github.com/NoahIsARider/Crusaders
-- memreview (local-first agent memory with spaced repetition): https://github.com/NoahIsARider/memreview
+- RecRedTeam (red-team audit framework for LLM/agentic recommender systems): https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov (on-chain DAO governance research toolchain with causal inference): https://github.com/NoahIsARider/OnChainGov
 
 Feel free to email me for additional materials or demos.
 `
@@ -514,7 +515,8 @@ Feel free to email me for additional materials or demos.
 - MoonPit（自建图片数据库的图片管理与搜索平台）
 - Open Stethoscope（心音 AI 杂音检测，面向基层医疗）：https://github.com/NoahIsARider/open-stethoscope
 - Crusaders（人机协作 HMC 框架）：https://github.com/NoahIsARider/Crusaders
-- memreview（本地优先的 Agent 记忆与间隔重复）：https://github.com/NoahIsARider/memreview
+- RecRedTeam（LLM/智能体推荐系统红队审计框架）：https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov（链上 DAO 治理实证研究工具链，含因果推断）：https://github.com/NoahIsARider/OnChainGov
 
 如需查看更多材料或项目演示，可邮件联系我。
 `
@@ -522,7 +524,7 @@ Feel free to email me for additional materials or demos.
     yue: {
         home: `**姓名**：周方亞諾（英文名 Noah Zhou）  
 **電話**：18779261101  
-**郵箱**：1966322816@qq.com  
+**郵箱**：noahchou2005@gmail.com  
 **微信**：zfyn18779261101  
 **個人網站**：https://github.com/NoahIsARider  
 **現居城市**：廣東廣州  
@@ -710,7 +712,8 @@ Feel free to email me for additional materials or demos.
 - MoonPit（自建圖片數據庫的圖片管理與搜索平台）
 - Open Stethoscope（心音 AI 雜音檢測，面向基層醫療）：https://github.com/NoahIsARider/open-stethoscope
 - Crusaders（人機協作 HMC 框架）：https://github.com/NoahIsARider/Crusaders
-- memreview（本地優先的 Agent 記憶與間隔重複）：https://github.com/NoahIsARider/memreview
+- RecRedTeam（LLM/智能體推薦系統紅隊審計框架）：https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov（鏈上 DAO 治理實證研究工具鏈，含因果推斷）：https://github.com/NoahIsARider/OnChainGov
 
 如需查看更多材料或項目演示，可電郵聯絡我。
 `

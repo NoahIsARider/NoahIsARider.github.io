@@ -1,6 +1,6 @@
 **Name**: Zhou Fangyanuo (Preferred name: Noah Zhou)  
 **Phone**: 18779261101  
-**Email**: 1966322816@qq.com  
+**Email**: noahchou2005@gmail.com  
 **WeChat**: zfyn18779261101  
 **Website**: https://github.com/NoahIsARider  
 **Current City**: Guangzhou  

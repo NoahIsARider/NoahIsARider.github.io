@@ -20,6 +20,7 @@ Below are the portfolio materials and key project links. Both PDF and PPT versio
 - MoonPit (professional image management and search with self-built databases)
 - Open Stethoscope (heart sound AI murmur detection for grassroots healthcare): https://github.com/NoahIsARider/open-stethoscope
 - Crusaders (human-machine collaboration framework): https://github.com/NoahIsARider/Crusaders
-- memreview (local-first agent memory with spaced repetition): https://github.com/NoahIsARider/memreview
+- RecRedTeam (red-team audit framework for LLM/agentic recommender systems): https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov (on-chain DAO governance research toolchain with causal inference): https://github.com/NoahIsARider/OnChainGov
 
 Feel free to email me for additional materials or demos.
