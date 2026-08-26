@@ -130,7 +130,7 @@ const contentByLang = {
     en: {
         home: `**Name**: Zhou Fangyanuo (Preferred name: Noah Zhou)  
 **Phone**: 18779261101  
-**Email**: 1966322816@qq.com  
+**Email**: noahchou2005@gmail.com  
 **WeChat**: zfyn18779261101  
 **Website**: https://github.com/NoahIsARider  
 **Current City**: Guangdong, Guangzhou  
@@ -171,7 +171,9 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 - Outstanding Individual, 2023-2024 SCUT Student Military Training, 2024.1
 - Motivational Student Award, Hua Xun · Yun Jie Scholarship, 2023.9
 `,
-        experience: `### Interdisciplinary Research on News Communication and Large Models (2024.5 - Present)
+        experience: `### Interdisciplinary Research on News Communication and Large Models, *Research Assistant* (2024.5 - Present)
+**Supervisor**: [Quanyi ZOU](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
+
 **Focus**: Interdisciplinary research at the intersection of news communication and large models, including LLM value alignment, multimodal fake news detection, multi-task fake news detection models, agent-based fake news dissemination simulation, sentiment analysis, hallucination research, and text readability analysis. It also includes recommender-system-related fake news studies, such as text-level comparisons between generative recommender systems and traditional recommender systems, and the propagation effects of fake news within recommender systems.
 
 **My Responsibilities**:
@@ -187,7 +189,23 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 ---
 
-### AIGC Medical Case Generation Project (2024.7 - 2024.12)
+### Multimodal AI Mental Health Coaching System, *Research Assistant* (2026.5 - Present)
+**Supervisor**: [Yuanyuan DANG](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
+**Introduction**: Developing a multimodal AI psychological coaching system for college students, with a rigorous randomized controlled trial to evaluate its causal intervention effect on students' mental health. The project integrates large language models, multimodal perception technology, and evidence-based psychological intervention methods.
+
+**My Responsibilities**:
+- Developed a Linux-deployed AI coaching system integrating multiple RAG knowledge bases and MCP-based tool interfaces.
+- Contributed to the randomized controlled trial design evaluating the causal effects of AI-assisted interventions on university students' mental health.
+- Contributed to system implementation and manuscript preparation.
+
+**Achievements**: Connected with excellent senior students and maintained ongoing cooperation; enriched experience in cross-functional and highly structured teams.
+
+---
+
+### AIGC Medical Case Generation Project, *Developer* (2024.7 - 2024.12)
+**Supervisor**: [Yuanyuan DANG](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **Introduction**: Built generative AI to produce structured medical records, reducing repetitive work, delays, and quality inconsistency. Focused on medical dialogue modeling to enable automatic outpatient record generation.
 
 **My Responsibilities**:
@@ -199,7 +217,9 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 ---
 
-### Mining Simulation and Analysis of Tourism Trajectory Data (2025.8 - Present)
+### Mining Simulation and Analysis of Tourism Trajectory Data, *Developer* (2025.8 - Present)
+**Supervisor**: [Zikun DENG](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
+
 **Introduction**: Built a visitor behavior simulation platform using Python and Vue with official platform data plus web-crawled data, exploring social media impact on travel route choices.
 
 **My Responsibilities**:
@@ -210,21 +230,7 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 ---
 
-### ZhituCareer+ Project & AIFrameQuest Image Search Series (2025.5 - 2025.7)
-**Introduction**:
-- ZhituCareer+: A career planning web platform featuring multi-agent decision making.
-- AIFrameQuest: A modern community discussion platform built with Flask and Vue, supporting authentication, content management, and image search (Faiss vector search with Bert feature extraction), featuring a modern design.
-- Spin-offs: ReminisceneStone (UGC-based memory recording and resonance platform) and MoonPit (professional image management and search platform with self-built databases).
-
-**Tech Stack**: Python / Flask / JavaScript / MySQL / Vue
-
-**My Responsibilities**: Led core deep learning module development (front-end and back-end), integrated submodules, participated in front-end and concept design, and coordinated team work allocation.
-
-**Achievements**: Ranked 1st in the course; open-source projects: https://github.com/NoahIsARider/AIFrameQuest , https://github.com/NoahIsARider/ZhituCareer
-
----
-
-### Agricultural Automatic Evaluation R&D Project (2025.7 - 2026.2)
+### Agricultural Automatic Evaluation R&D Project, *Developer* (2025.7 - 2026.2)
 **Introduction**: Applied computer vision to evaluate livestock breeding effects; built a custom data annotation platform; trained YOLO models for target weight recognition.
 
 **My Responsibilities**: Researched and implemented keyframe recognition algorithms; used YOLOn11pose to address livestock body keypoint recognition challenges.
@@ -284,7 +290,17 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 **Main Responsibilities**:
 - Learned rapid MVP product incubation methodologies.
 - Gained foundational knowledge in smart healthcare and quantitative investment.
-`,
+
+---
+
+### Extracurricular: Lianshan County Field Research (2026.8)
+**Introduction**: Arranged by Prof. Dang, joined the 2nd research group for a summer field research trip to Lianshan County, Qingyuan, Guangdong (led by Prof. Lai Chao'an).
+
+**Research Scope**:
+- Visited government departments: County Federation of Industry and Commerce (General Chamber of Commerce), Agriculture and Rural Affairs Bureau, Lianshan Branch of Ecology and Environment Bureau, and Development, Reform, Industry, Information, Technology & Commerce Bureau.
+- Investigated industrial entities: Simiao Rice Provincial Industrial Park, Rice-Vegetable-Tea Provincial Modern Agriculture Industrial Park, Zhuangyaobao Ecological Industry, etc.
+
+**Achievements**: Gained hands-on experience in county-level industry and policy implementation, plus field research, government-enterprise communication, and multi-department coordination skills.`,
         portfolio: `Below are the portfolio materials and key project links. Both PDF and PPT versions are available.
 
 <div class="portfolio-embed">
@@ -301,10 +317,10 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 - ZhituCareer+ (multi-agent career planning): https://github.com/NoahIsARider/ZhituCareer
 - DLFaceDetection (RPC / remote function call sample): https://github.com/NoahIsARider/DLFaceDetection
 - MatchaFlow (Multi-agent software development team): https://github.com/NoahIsARider/MatchaFlow
-- WeSpeak (news communication / fake news detection): https://github.com/KGoinger/WeSpeak
-- Reptile (web crawling and data processing): https://github.com/NoahIsARider/Reptile
-- ReminisceneStone (UGC memory recording and resonance platform)
-- MoonPit (professional image management and search with self-built databases)
+- Open Stethoscope (heart sound AI murmur detection for grassroots healthcare): https://github.com/NoahIsARider/open-stethoscope
+- Crusaders (human-machine collaboration framework): https://github.com/NoahIsARider/Crusaders
+- RecRedTeam (red-team audit framework for LLM/agentic recommender systems): https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov (on-chain DAO governance research toolchain with causal inference): https://github.com/NoahIsARider/OnChainGov
 
 Feel free to email me for additional materials or demos.
 `
@@ -353,7 +369,9 @@ Feel free to email me for additional materials or demos.
 - 2023-2024 年度华南理工大学学生军训先进个人，2024.1
 - 华浔·运杰奖学金励志学生奖，2023.9
 `,
-        experience: `### 新闻传播 - 大模型跨学科研究（2024.5 - 至今）
+        experience: `### 新闻传播 - 大模型跨学科研究，*研究助理*（2024.5 - 至今）
+**指导教师**：[邹全义](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
+
 **研究方向**：新闻传播与大模型交叉研究，包括大语言模型价值对齐、多模态假新闻检测、多任务假新闻检测模型、智能体模拟假新闻传播、情感分析、幻觉研究、文本可读性分析。同时也有推荐系统与假新闻的相关研究，比如生成式推荐系统与传统推荐系统的文本对比和假新闻在推荐系统中的传播效果研究。
 
 **我的职责**：
@@ -369,7 +387,23 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 智慧医疗 AIGC 病案资料生成项目（2024.7 - 2024.12）
+### 多模态 AI 心理健康辅导系统，*研究助理*（2026.5 - 至今）
+**指导教师**：[党媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
+**项目描述**：面向大学生开发多模态 AI 心理辅导系统，并通过严格的随机对照试验评估其对大学生心理健康的因果干预效果；项目整合大语言模型、多模态感知技术与循证心理干预方法。
+
+**我的职责**：
+- 开发部署于 Linux 的 AI 辅导系统，整合多个 RAG 知识库与基于 MCP 的工具接口。
+- 参与随机对照试验设计，评估 AI 辅助干预对大学生心理健康的因果效应。
+- 参与系统实现与论文撰写。
+
+**成果与收获**：结识优秀学长并保持后续合作交流；丰富跨职能与高结构化团队协作经验。
+
+---
+
+### 智慧医疗 AIGC 病案资料生成项目，*开发者*（2024.7 - 2024.12）
+**指导教师**：[党媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **项目描述**：基于生成式人工智能生成格式化病案资料，解决病案撰写重复劳动、时效性滞后与质量不均等问题；通过深入医疗对话研究，开发 AIGC 算法，实现门诊病案自动化与智能化生成。
 
 **我的职责**：
@@ -381,7 +415,9 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 旅游轨迹数据的挖掘模拟与分析（2025.8 - 至今）
+### 旅游轨迹数据的挖掘模拟与分析，*开发者*（2025.8 - 至今）
+**指导教师**：[邓紫坤](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
+
 **项目描述**：结合官方平台与爬虫数据，构建基于 Python 与 Vue 的游客行为模拟平台，研究社交媒体是否影响游客路线选择。
 
 **我的职责**：
@@ -392,21 +428,7 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 智途 Career+ 项目 & AIFrameQuest 以图搜图系列（2025.5 - 2025.7）
-**项目描述**：
-- 智途 Career+：以多 Agent 决策为特色的职业生涯规划网页。
-- AIFrameQuest：基于 Flask 与 Vue 的现代化社区讨论平台，支持用户认证、内容管理、图像搜索（Faiss 向量搜索与 Bert 特征提取），设计风格现代优美。
-- 衍生项目：ReminisceneStone（UGC 回忆记录与共鸣寻找平台）、MoonPit（支持自建图片数据库的专业化图片管理与搜索平台）。
-
-**技术栈**：Python / Flask / JavaScript / MySQL / Vue
-
-**我的职责**：负责核心深度学习模块前后端编写、子模块统合、参与前端设计与概念集设计、安排团队合理分工。
-
-**成果与收获**：课程第一；开源项目：https://github.com/NoahIsARider/AIFrameQuest ，https://github.com/NoahIsARider/ZhituCareer
-
----
-
-### 农业自动评估研发项目（2025.7 - 2026.2）
+### 农业自动评估研发项目，*开发者*（2025.7 - 2026.2）
 **项目描述**：使用计算机视觉实现养畜业养殖效果评估，搭建自主数据标注平台，通过训练 YOLO 系列模型实现目标体重识别。
 
 **我的职责**：调研并实现关键帧识别算法；使用 YOLOn11pose 模型解决牲畜身体关键点识别难点。
@@ -466,7 +488,17 @@ Feel free to email me for additional materials or demos.
 **主要职责**：
 - 学习了 MVP 产品的快速孵化方法。
 - 了解了智慧医疗、量化投资的相关知识。
-`,
+
+---
+
+### 社团活动：连山县实地调研（2026.8）
+**项目描述**：由党老师安排，随第二调研小组赴广东省清远市连山县开展暑期实地调研（带队：赖朝安老师）。
+
+**调研内容**：
+- 走访政府部门：县工商联（总商会）、农业农村局、生态环境局连山分局、发展改革工信和科技商务局。
+- 考察产业主体：丝苗米省级产业园、稻菜茶省级现代农业产业园、壮瑶宝生态产业等。
+
+**成果与收获**：深入基层了解县域产业与政策落地情况，积累实地调研、政企沟通与多部门协调经验。`,
         portfolio: `以下为作品集展示与主要项目链接，包含 PDF 与 PPT 版本（可任选浏览）。
 
 <div class="portfolio-embed">
@@ -483,10 +515,10 @@ Feel free to email me for additional materials or demos.
 - ZhituCareer+（多智能体职业规划平台）：https://github.com/NoahIsARider/ZhituCareer
 - DLFaceDetection（RPC/远程函数调用示例）：https://github.com/NoahIsARider/DLFaceDetection
 - MatchaFlow (多智能体软件开发管理团队): https://github.com/NoahIsARider/MatchaFlow
-- WeSpeak（新闻传播/假新闻检测相关）：https://github.com/KGoinger/WeSpeak
-- Reptile（爬虫与数据处理）：https://github.com/NoahIsARider/Reptile
-- ReminisceneStone（UGC 回忆记录与共鸣平台）
-- MoonPit（自建图片数据库的图片管理与搜索平台）
+- Open Stethoscope（心音 AI 杂音检测，面向基层医疗）：https://github.com/NoahIsARider/open-stethoscope
+- Crusaders（人机协作 HMC 框架）：https://github.com/NoahIsARider/Crusaders
+- RecRedTeam（LLM/智能体推荐系统红队审计框架）：https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov（链上 DAO 治理实证研究工具链，含因果推断）：https://github.com/NoahIsARider/OnChainGov
 
 如需查看更多材料或项目演示，可邮件联系我。
 `
@@ -494,7 +526,7 @@ Feel free to email me for additional materials or demos.
     yue: {
         home: `**姓名**：周方亞諾（英文名 Noah Zhou）  
 **電話**：18779261101  
-**郵箱**：1966322816@qq.com  
+**郵箱**：noahchou2005@gmail.com  
 **微信**：zfyn18779261101  
 **個人網站**：https://github.com/NoahIsARider  
 **現居城市**：廣東廣州  
@@ -535,7 +567,9 @@ Feel free to email me for additional materials or demos.
 - 2023-2024 年度華南理工大學學生軍訓先進個人，2024.1
 - 華潯·運傑獎學金勵志學生獎，2023.9
 `,
-        experience: `### 新聞傳播 - 大模型跨學科研究（2024.5 - 至今）
+        experience: `### 新聞傳播 - 大模型跨學科研究，*研究助理*（2024.5 - 至今）
+**指導教師**：[鄒全義](https://www2.scut.edu.cn/communication/2023/0921/c34332a519625/page.htm)
+
 **研究方向**：新聞傳播與大模型交叉研究，包括大語言模型價值對齊、多模態假新聞檢測、多任務假新聞檢測模型、智能體模擬假新聞傳播、情感分析、幻覺研究、文本可讀性分析。同時亦有推薦系統與假新聞的相關研究，例如生成式推薦系統與傳統推薦系統的文本對比，以及假新聞在推薦系統中的傳播效果研究。
 
 **我的職責**：
@@ -551,7 +585,23 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 智慧醫療 AIGC 病案資料生成項目（2024.7 - 2024.12）
+### 多模態 AI 心理健康輔導系統，*研究助理*（2026.5 - 至今）
+**指導教師**：[黨媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
+**項目描述**：面向大學生開發多模態 AI 心理輔導系統，並通過嚴格的隨機對照試驗評估其對大學生心理健康的因果干預效果；項目整合大語言模型、多模態感知技術與循證心理干預方法。
+
+**我的職責**：
+- 開發部署於 Linux 的 AI 輔導系統，整合多個 RAG 知識庫與基於 MCP 的工具接口。
+- 參與隨機對照試驗設計，評估 AI 輔助干預對大學生心理健康的因果效應。
+- 參與系統實現與論文撰寫。
+
+**成果與收穫**：結識優秀學長並保持後續合作交流；豐富跨職能與高結構化團隊協作經驗。
+
+---
+
+### 智慧醫療 AIGC 病案資料生成項目，*開發者*（2024.7 - 2024.12）
+**指導教師**：[黨媛媛](https://cnsba.scut.edu.cn/2021/0302/c24832a420321/page.htm)
+
 **項目描述**：基於生成式人工智能生成格式化病案資料，解決病案撰寫重複勞動、時效性滯後與質量不均等問題；通過深入醫療對話研究，開發 AIGC 算法，實現門診病案自動化與智能化生成。
 
 **我的職責**：
@@ -563,7 +613,9 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 旅遊軌跡數據的挖掘模擬與分析（2025.8 - 至今）
+### 旅遊軌跡數據的挖掘模擬與分析，*開發者*（2025.8 - 至今）
+**指導教師**：[鄧紫坤](https://www2.scut.edu.cn/sse/2023/0828/c16789a516873/page.htm)
+
 **項目描述**：結合官方平台與爬蟲數據，構建基於 Python 與 Vue 的遊客行為模擬平台，研究社交媒體是否影響遊客路線選擇。
 
 **我的職責**：
@@ -574,21 +626,7 @@ Feel free to email me for additional materials or demos.
 
 ---
 
-### 智途 Career+ 項目 & AIFrameQuest 以圖搜圖系列（2025.5 - 2025.7）
-**項目描述**：
-- 智途 Career+：以多 Agent 決策為特色的職業生涯規劃網頁。
-- AIFrameQuest：基於 Flask 與 Vue 的現代化社區討論平台，支持用戶認證、內容管理、圖像搜索（Faiss 向量搜索與 Bert 特徵提取），設計風格現代優美。
-- 衍生項目：ReminisceneStone（UGC 回憶記錄與共鳴尋找平台）、MoonPit（支持自建圖片數據庫的專業化圖片管理與搜索平台）。
-
-**技術棧**：Python / Flask / JavaScript / MySQL / Vue
-
-**我的職責**：負責核心深度學習模塊前後端編寫、子模塊統合、參與前端設計與概念集設計、安排團隊合理分工。
-
-**成果與收穫**：課程第一；開源項目：https://github.com/NoahIsARider/AIFrameQuest ，https://github.com/NoahIsARider/ZhituCareer
-
----
-
-### 農業自動評估研發項目（2025.7 - 2026.2）
+### 農業自動評估研發項目，*開發者*（2025.7 - 2026.2）
 **項目描述**：使用計算機視覺實現養畜業養殖效果評估，搭建自主數據標註平台，通過訓練 YOLO 系列模型實現目標體重識別。
 
 **我的職責**：調研並實現關鍵幀識別算法；使用 YOLOn11pose 模型解決牲畜身體關鍵點識別難點。
@@ -648,7 +686,17 @@ Feel free to email me for additional materials or demos.
 **主要職責**：
 - 學習了 MVP 產品的快速孵化方法。
 - 了解了智慧醫療、量化投資的相關知識。
-`,
+
+---
+
+### 社團活動：連山縣實地調研（2026.8）
+**項目描述**：由黨老師安排，隨第二調研小組赴廣東省清遠市連山縣開展暑期實地調研（帶隊：賴朝安老師）。
+
+**調研內容**：
+- 走訪政府部門：縣工商聯（總商會）、農業農村局、生態環境局連山分局、發展改革工信和科技商務局。
+- 考察產業主體：絲苗米省級產業園、稻菜茶省級現代農業產業園、壯瑤寶生態產業等。
+
+**成果與收穫**：深入基層了解縣域產業與政策落地情況，積累實地調研、政企溝通與多部門協調經驗。`,
         portfolio: `以下為作品集展示與主要項目連結，包含 PDF 與 PPT 版本（可任選瀏覽）。
 
 <div class="portfolio-embed">
@@ -665,10 +713,10 @@ Feel free to email me for additional materials or demos.
 - ZhituCareer+（多智能體職業規劃平台）：https://github.com/NoahIsARider/ZhituCareer
 - DLFaceDetection（RPC/遠程函數調用示例）：https://github.com/NoahIsARider/DLFaceDetection
 - MatchaFlow（多智能體軟件開發管理團隊）：https://github.com/NoahIsARider/MatchaFlow
-- WeSpeak（新聞傳播/假新聞檢測相關）：https://github.com/KGoinger/WeSpeak
-- Reptile（爬蟲與數據處理）：https://github.com/NoahIsARider/Reptile
-- ReminisceneStone（UGC 回憶記錄與共鳴平台）
-- MoonPit（自建圖片數據庫的圖片管理與搜索平台）
+- Open Stethoscope（心音 AI 雜音檢測，面向基層醫療）：https://github.com/NoahIsARider/open-stethoscope
+- Crusaders（人機協作 HMC 框架）：https://github.com/NoahIsARider/Crusaders
+- RecRedTeam（LLM/智能體推薦系統紅隊審計框架）：https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov（鏈上 DAO 治理實證研究工具鏈，含因果推斷）：https://github.com/NoahIsARider/OnChainGov
 
 如需查看更多材料或項目演示，可電郵聯絡我。
 `
@@ -678,8 +726,26 @@ Feel free to email me for additional materials or demos.
 let currentLang = 'en';
 let currentTheme = 'light';
 
+// Safe localStorage access: Firefox (and some privacy modes) throw
+// NS_ERROR_FAILURE when storage is blocked. Never let that kill the page.
+const safeGet = (key) => {
+    try {
+        return localStorage.getItem(key);
+    } catch {
+        return null;
+    }
+};
+
+const safeSet = (key, value) => {
+    try {
+        localStorage.setItem(key, value);
+    } catch {
+        // storage unavailable — degrade gracefully (theme/lang just won't persist)
+    }
+};
+
 const getInitialLang = () => {
-    const stored = localStorage.getItem('lang');
+    const stored = safeGet('lang');
     if (supportedLangs.includes(stored)) {
         return stored;
     }
@@ -692,7 +758,7 @@ const getInitialLang = () => {
 };
 
 const getInitialTheme = () => {
-    const stored = localStorage.getItem('theme');
+    const stored = safeGet('theme');
     if (supportedThemes.includes(stored)) {
         return stored;
     }
@@ -782,7 +848,7 @@ const setThemeToggleText = (theme, lang) => {
 const applyTheme = (theme) => {
     const selected = supportedThemes.includes(theme) ? theme : 'light';
     currentTheme = selected;
-    localStorage.setItem('theme', selected);
+    safeSet('theme', selected);
     document.body.classList.toggle('theme-dark', selected === 'dark');
     setThemeToggleText(selected, currentLang);
 };
@@ -803,7 +869,7 @@ const initLanguageSwitcher = () => {
     const applyLanguage = (lang) => {
         const selected = supportedLangs.includes(lang) ? lang : 'en';
         currentLang = selected;
-        localStorage.setItem('lang', selected);
+        safeSet('lang', selected);
         document.documentElement.lang = selected;
         applyConfig(config, selected);
         setActiveLangButton(selected);

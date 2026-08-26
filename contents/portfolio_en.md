@@ -14,9 +14,9 @@ Below are the portfolio materials and key project links. Both PDF and PPT versio
 - ZhituCareer+ (multi-agent career planning): https://github.com/NoahIsARider/ZhituCareer
 - DLFaceDetection (RPC / remote function call sample): https://github.com/NoahIsARider/DLFaceDetection
 - MatchaFlow (Multi-agent software development team): https://github.com/NoahIsARider/MatchaFlow
-- WeSpeak (news communication / fake news detection): https://github.com/KGoinger/WeSpeak
-- Reptile (web crawling and data processing): https://github.com/NoahIsARider/Reptile
-- ReminisceneStone (UGC memory recording and resonance platform)
-- MoonPit (professional image management and search with self-built databases)
+- Open Stethoscope (heart sound AI murmur detection for grassroots healthcare): https://github.com/NoahIsARider/open-stethoscope
+- Crusaders (human-machine collaboration framework): https://github.com/NoahIsARider/Crusaders
+- RecRedTeam (red-team audit framework for LLM/agentic recommender systems): https://github.com/NoahIsARider/RecRedTeam
+- OnChainGov (on-chain DAO governance research toolchain with causal inference): https://github.com/NoahIsARider/OnChainGov
 
 Feel free to email me for additional materials or demos.
