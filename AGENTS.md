@@ -100,7 +100,9 @@ Search for the section key, e.g. `experience: \``, and edit the template literal
   all content is inline). Editing them silently does nothing. Do not recreate them.
 - **CMLE citation:** the paper title must NOT have a comma before the closing quote:
   `"CMLE: ... Fake News Detection"` (no trailing comma inside the quotes).
-- **Lianshan field research** was removed from extracurricular (2026-08-31) — it is
-  research, not a club activity. Don't re-add it under 社团活动/Extracurricular.
+- **Lianshan field research** (2026-08-31): the entry stays in extracurricular but
+  the "社团活动：/社團活動：/Extracurricular:" prefix was removed — it is research,
+  not a club activity. Keep the entry, never re-add the club label. (CC Film Club
+  keeps its label — that one IS a club activity.)
 - Keep three languages in sync; the site is Noah's public academic face — verify all
   three versions after any content change.
