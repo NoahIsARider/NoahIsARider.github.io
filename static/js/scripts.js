@@ -291,6 +291,16 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 - Learned rapid MVP product incubation methodologies.
 - Gained foundational knowledge in smart healthcare and quantitative investment.
 
+---
+
+### Lianshan County Field Research (2026.8)
+**Introduction**: Arranged by Prof. Dang, joined the 2nd research group for a summer field research trip to Lianshan County, Qingyuan, Guangdong (led by Prof. Lai Chao'an).
+
+**Research Scope**:
+- Visited government departments: County Federation of Industry and Commerce (General Chamber of Commerce), Agriculture and Rural Affairs Bureau, Lianshan Branch of Ecology and Environment Bureau, and Development, Reform, Industry, Information, Technology & Commerce Bureau.
+- Investigated industrial entities: Simiao Rice Provincial Industrial Park, Rice-Vegetable-Tea Provincial Modern Agriculture Industrial Park, Zhuangyaobao Ecological Industry, etc.
+
+**Achievements**: Gained hands-on experience in county-level industry and policy implementation, plus field research, government-enterprise communication, and multi-department coordination skills.
 `,
         portfolio: `Below are the portfolio materials and key project links. Both PDF and PPT versions are available.
 
@@ -480,6 +490,16 @@ Feel free to email me for additional materials or demos.
 - 学习了 MVP 产品的快速孵化方法。
 - 了解了智慧医疗、量化投资的相关知识。
 
+---
+
+### 连山县实地调研（2026.8）
+**项目描述**：由党老师安排，随第二调研小组赴广东省清远市连山县开展暑期实地调研（带队：赖朝安老师）。
+
+**调研内容**：
+- 走访政府部门：县工商联（总商会）、农业农村局、生态环境局连山分局、发展改革工信和科技商务局。
+- 考察产业主体：丝苗米省级产业园、稻菜茶省级现代农业产业园、壮瑶宝生态产业等。
+
+**成果与收获**：深入基层了解县域产业与政策落地情况，积累实地调研、政企沟通与多部门协调经验。
 `,
         portfolio: `以下为作品集展示与主要项目链接，包含 PDF 与 PPT 版本（可任选浏览）。
 
@@ -669,6 +689,16 @@ Feel free to email me for additional materials or demos.
 - 學習了 MVP 產品的快速孵化方法。
 - 了解了智慧醫療、量化投資的相關知識。
 
+---
+
+### 連山縣實地調研（2026.8）
+**項目描述**：由黨老師安排，隨第二調研小組赴廣東省清遠市連山縣開展暑期實地調研（帶隊：賴朝安老師）。
+
+**調研內容**：
+- 走訪政府部門：縣工商聯（總商會）、農業農村局、生態環境局連山分局、發展改革工信和科技商務局。
+- 考察產業主體：絲苗米省級產業園、稻菜茶省級現代農業產業園、壯瑤寶生態產業等。
+
+**成果與收穫**：深入基層了解縣域產業與政策落地情況，積累實地調研、政企溝通與多部門協調經驗。
 `,
         portfolio: `以下為作品集展示與主要項目連結，包含 PDF 與 PPT 版本（可任選瀏覽）。
 
