@@ -80,14 +80,3 @@
 **Achievements**: Enhanced aesthetic ability and organizational coordination skills.
 
 **Douban**: https://www.douban.com/people/227017213
-
----
-
-### Extracurricular: Lianshan County Field Research (2026.8)
-**Introduction**: Arranged by Prof. Dang, joined the 2nd research group for a summer field research trip to Lianshan County, Qingyuan, Guangdong (led by Prof. Lai Chao'an).
-
-**Research Scope**:
-- Visited government departments: County Federation of Industry and Commerce (General Chamber of Commerce), Agriculture and Rural Affairs Bureau, Lianshan Branch of Ecology and Environment Bureau, and Development, Reform, Industry, Information, Technology & Commerce Bureau.
-- Investigated industrial entities: Simiao Rice Provincial Industrial Park, Rice-Vegetable-Tea Provincial Modern Agriculture Industrial Park, Zhuangyaobao Ecological Industry, etc.
-
-**Achievements**: Gained hands-on experience in county-level industry and policy implementation, plus field research, government-enterprise communication, and multi-department coordination skills.
