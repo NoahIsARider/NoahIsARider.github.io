@@ -244,7 +244,7 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 <ul class="pub-list">
     <li>
         Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
-        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection,"
+        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection"
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
         <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
     </li>
@@ -442,7 +442,7 @@ Feel free to email me for additional materials or demos.
 <ul class="pub-list">
     <li>
         Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
-        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection,"
+        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection"
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
         <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
     </li>
@@ -640,7 +640,7 @@ Feel free to email me for additional materials or demos.
 <ul class="pub-list">
     <li>
         Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
-        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection,"
+        "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection"
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
         <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
     </li>
