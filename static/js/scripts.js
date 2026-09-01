@@ -280,7 +280,7 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 **Achievements**: Enhanced aesthetic ability and organizational coordination skills.
 
-**Douban**: https://www.douban.com/people/227017213
+**Douban**: <a class="douban-link" href="https://www.douban.com/people/227017213" target="_blank" rel="noopener">Douban profile</a>
 
 ---
 
@@ -479,7 +479,7 @@ Feel free to email me for additional materials or demos.
 
 **成果与收获**：提升审美能力与组织协调能力。
 
-**个人豆瓣主页**：https://www.douban.com/people/227017213
+**个人豆瓣主页**：<a class="douban-link" href="https://www.douban.com/people/227017213" target="_blank" rel="noopener">豆瓣账号链接</a>
 
 ---
 
@@ -678,7 +678,7 @@ Feel free to email me for additional materials or demos.
 
 **成果與收穫**：提升審美能力與組織協調能力。
 
-**個人豆瓣主頁**：https://www.douban.com/people/227017213
+**個人豆瓣主頁**：<a class="douban-link" href="https://www.douban.com/people/227017213" target="_blank" rel="noopener">豆瓣帳號連結</a>
 
 ---
 

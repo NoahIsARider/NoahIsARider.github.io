@@ -362,3 +362,12 @@ body.theme-dark #license-link {
 }
 
 
+
+/* Douban profile link — explicit blue so it reads as a link in both themes */
+.douban-link {
+    color: #1a73e8;
+    text-decoration: underline;
+}
+body.theme-dark .douban-link {
+    color: #60a5fa;
+}
