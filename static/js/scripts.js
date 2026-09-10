@@ -246,7 +246,7 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
         Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
         "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection"
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
-        <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
+        <a class="pub-link" href="CMLE_IEEE_TCE_2026.pdf" target="_blank" rel="noopener">PDF</a>
     </li>
     <li>Counterfactual software defect detection paper under review</li>
     <li>Multi-task fake news detection paper in progress</li>
@@ -445,7 +445,7 @@ Feel free to email me for additional materials or demos.
         Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
         "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection"
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
-        <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
+        <a class="pub-link" href="CMLE_IEEE_TCE_2026.pdf" target="_blank" rel="noopener">PDF</a>
     </li>
     <li>反事实软件缺陷检测论文在投</li>
     <li>多任务假新闻检测论文撰写中</li>
@@ -644,7 +644,7 @@ Feel free to email me for additional materials or demos.
         Q.-Y. Zou, G. Chen, F. Zhou, X.-K. Wu, Z.-Y. Yang, and Y.-Y. Shi,
         "CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal Fake News Detection"
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
-        <a class="pub-link" href="https://doi.org/10.1109/TCE.2026.3677445" target="_blank" rel="noopener">DOI</a>
+        <a class="pub-link" href="CMLE_IEEE_TCE_2026.pdf" target="_blank" rel="noopener">PDF</a>
     </li>
     <li>反事實軟件缺陷檢測論文在投</li>
     <li>多任務假新聞檢測論文撰寫中</li>
