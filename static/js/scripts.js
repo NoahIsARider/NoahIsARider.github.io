@@ -147,6 +147,7 @@ const contentByLang = {
 - CET-4: 632/710, CET-6: 642/710, <span class="highlight-blue">IELTS overall: 8.0/9.0, GRE: Verbal 161/170, Quantitative 170/170</span>
 - Attended 2024 International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI2024)
 - Participated in the 2025 Annual Conference on Intelligent and Computational Communication
+- Attended the inaugural GBA AI Alliance Conference (GAAC 2026)
 - Awarded a tuition-free place in the 2025 HKUST Summer School (English-taught, 4 spots university-wide)
 
 #### Research Interests
@@ -346,6 +347,7 @@ Feel free to email me for additional materials or demos.
 - CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思总分：8.0/9.0，GRE：Verbal 161/170，Quantitative 170/170</span>
 - 参加 2024 年计算机科学、电子信息工程和智能控制技术国际会议（CEI2024）（有参会证明）
 - 参与 2025 年智能与计算传播学年会
+- 参加首届湾区 AI 创新联盟年会（GAAC 2026）
 - 获得 2025 年香港科技大学暑期学校项目免学费名额（全英授课，全校四个名额）
 
 #### 研究兴趣
@@ -545,6 +547,7 @@ Feel free to email me for additional materials or demos.
 - CET-4：632/710，CET-6：642/710，<span class="highlight-blue">雅思總分：8.0/9.0，GRE：Verbal 161/170，Quantitative 170/170</span>
 - 參加 2024 年計算機科學、電子信息工程和智能控制技術國際會議（CEI2024）（有參會證明）
 - 參與 2025 年智能與計算傳播學年會
+- 參加首屆灣區 AI 創新聯盟年會（GAAC 2026）
 - 獲得 2025 年香港科技大學暑期學校項目免學費名額（全英授課，全校四個名額）
 
 #### 研究興趣
