@@ -302,7 +302,7 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 **Achievements**: Gained hands-on experience in county-level industry and policy implementation, plus field research, government-enterprise communication, and multi-department coordination skills.
 `,
-        portfolio: `Below are the portfolio materials and key project links. Both PDF and PPT versions are available.
+        portfolio: `Below are the portfolio materials and key project links. The PDF version is available to view inline.
 
 <div class="portfolio-embed">
   <iframe src="作品集.pdf" title="Portfolio PDF"></iframe>
@@ -310,7 +310,6 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 <div class="portfolio-links">
   <a href="作品集.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Portfolio PDF</a>
-  <a href="作品集.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>Portfolio PPT</a>
 </div>
 
 #### Featured Projects
@@ -501,7 +500,7 @@ Feel free to email me for additional materials or demos.
 
 **成果与收获**：深入基层了解县域产业与政策落地情况，积累实地调研、政企沟通与多部门协调经验。
 `,
-        portfolio: `以下为作品集展示与主要项目链接，包含 PDF 与 PPT 版本（可任选浏览）。
+        portfolio: `以下为作品集展示与主要项目链接，提供 PDF 版本（可在线预览或下载）。
 
 <div class="portfolio-embed">
   <iframe src="作品集.pdf" title="作品集 PDF"></iframe>
@@ -509,7 +508,6 @@ Feel free to email me for additional materials or demos.
 
 <div class="portfolio-links">
   <a href="作品集.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>作品集 PDF</a>
-  <a href="作品集.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>作品集 PPT</a>
 </div>
 
 #### 代表项目与代码
@@ -700,7 +698,7 @@ Feel free to email me for additional materials or demos.
 
 **成果與收穫**：深入基層了解縣域產業與政策落地情況，積累實地調研、政企溝通與多部門協調經驗。
 `,
-        portfolio: `以下為作品集展示與主要項目連結，包含 PDF 與 PPT 版本（可任選瀏覽）。
+        portfolio: `以下為作品集展示與主要項目連結，提供 PDF 版本（可線上預覽或下載）。
 
 <div class="portfolio-embed">
   <iframe src="作品集.pdf" title="作品集 PDF"></iframe>
@@ -708,7 +706,6 @@ Feel free to email me for additional materials or demos.
 
 <div class="portfolio-links">
   <a href="作品集.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>作品集 PDF</a>
-  <a href="作品集.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>作品集 PPT</a>
 </div>
 
 #### 代表項目與代碼

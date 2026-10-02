@@ -87,6 +87,12 @@ Search for the section key, e.g. `experience: \``, and edit the template literal
 ## Deployment
 
 - Branch `main` → GitHub Pages deploys automatically (repo settings: Pages → main / root).
+- Branch `edgeone` → same site **minus the two oversized `作品集*.pptx`** (35 MB / 33 MB),
+  for EdgeOne Pages, which rejects any single file over 25 MB. The PPT download buttons
+  are removed from `static/js/scripts.js` on that branch (the PDF stays, embedded and
+  downloadable). Keep it in sync after content edits:
+  `git checkout edgeone && git merge main` — the merge keeps the pptx deletions.
+  Never push the pptx back onto `edgeone`.
 - Push via HTTPS (token) or SSH; commit identity must be `NoahIsARider`
   (`noahisarider@users.noreply.github.com`), never a bot identity.
 - After pushing, hard-refresh (Ctrl+F5) — the site is pure static, no cache busting.
