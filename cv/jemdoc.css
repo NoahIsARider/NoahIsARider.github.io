@@ -371,10 +371,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-#layout-content {
-	max-width: 52em;
-}
-
 #layout-content ul li {
 	line-height: 1.35;
 }
