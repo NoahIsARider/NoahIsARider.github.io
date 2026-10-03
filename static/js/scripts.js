@@ -115,9 +115,9 @@ const config = {
         yue: '<i class="bi bi-collection"></i> 作品集'
     },
     'resume-links': {
-        en: '<a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (EN)</a><a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (ZH)</a>',
-        zh: '<a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载中文简历</a><a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载英文简历</a>',
-        yue: '<a href="周方亚诺_中文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下載中文簡歷</a><a href="周方亚诺_英文简历.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下載英文簡歷</a>'
+        en: '<a href="CV_English.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (EN)</a><a href="CV_Chinese.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Download CV (ZH)</a>',
+        zh: '<a href="CV_Chinese.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载中文简历</a><a href="CV_English.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下载英文简历</a>',
+        yue: '<a href="CV_Chinese.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下載中文簡歷</a><a href="CV_English.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>下載英文簡歷</a>'
     },
     'copyright-text': {
         en: '&copy; Noah Zhou 2026. All Rights Reserved.',
@@ -306,12 +306,12 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
         portfolio: `Below are the portfolio materials and key project links. Both PDF and PPT versions are available.
 
 <div class="portfolio-embed">
-  <iframe src="作品集.pdf" title="Portfolio PDF"></iframe>
+  <iframe src="Portfolio.pdf" title="Portfolio PDF"></iframe>
 </div>
 
 <div class="portfolio-links">
-  <a href="作品集.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Portfolio PDF</a>
-  <a href="作品集.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>Portfolio PPT</a>
+  <a href="Portfolio.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>Portfolio PDF</a>
+  <a href="Portfolio.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>Portfolio PPT</a>
 </div>
 
 #### Featured Projects
@@ -506,12 +506,12 @@ Feel free to email me for additional materials or demos.
         portfolio: `以下为作品集展示与主要项目链接，包含 PDF 与 PPT 版本（可任选浏览）。
 
 <div class="portfolio-embed">
-  <iframe src="作品集.pdf" title="作品集 PDF"></iframe>
+  <iframe src="Portfolio.pdf" title="作品集 PDF"></iframe>
 </div>
 
 <div class="portfolio-links">
-  <a href="作品集.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>作品集 PDF</a>
-  <a href="作品集.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>作品集 PPT</a>
+  <a href="Portfolio.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>作品集 PDF</a>
+  <a href="Portfolio.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>作品集 PPT</a>
 </div>
 
 #### 代表项目与代码
@@ -706,12 +706,12 @@ Feel free to email me for additional materials or demos.
         portfolio: `以下為作品集展示與主要項目連結，包含 PDF 與 PPT 版本（可任選瀏覽）。
 
 <div class="portfolio-embed">
-  <iframe src="作品集.pdf" title="作品集 PDF"></iframe>
+  <iframe src="Portfolio.pdf" title="作品集 PDF"></iframe>
 </div>
 
 <div class="portfolio-links">
-  <a href="作品集.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>作品集 PDF</a>
-  <a href="作品集.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>作品集 PPT</a>
+  <a href="Portfolio.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>作品集 PDF</a>
+  <a href="Portfolio.pptx" target="_blank" rel="noopener"><i class="bi bi-easel"></i>作品集 PPT</a>
 </div>
 
 #### 代表項目與代碼

@@ -18,8 +18,10 @@ loads `index.html` + `static/js/scripts.js` and renders everything client-side
 index.html                 — page skeleton, loads bootstrap/marked/mathjax/scripts.js
 static/js/scripts.js       — ⭐ ALL content, config, and rendering logic (895 lines)
 static/css/                — styles (main.css, styles.css)
-static/assets/img/         — photo.jpg (portrait), background.jpeg (hero bg), logo.png
-<repo root>                — CV PDFs/txt, 作品集.pdf/pptx (linked from the site)
+static/assets/img/         — photo.jpg (square headshot), background.jpeg (hero bg), logo.png
+cv/                        — separate English academic CV sub-site (jemdoc template), served at /cv/
+<repo root>                — CV_English.pdf / CV_Chinese.pdf, Portfolio.pdf / Portfolio.pptx (linked from the site)
+archive/                   — superseded files nothing links to (legacy CV PDFs, CV .txt dumps, Portfolio-old.pptx)
 ```
 
 ### scripts.js layout (line numbers as of 2026-08-31)
@@ -80,9 +82,32 @@ Search for the section key, e.g. `experience: \``, and edit the template literal
 ### 3. Things that are NOT in scripts.js
 
 - `static/assets/img/` — replace `photo.jpg` / `background.jpeg` to change portrait/hero.
-- Repo-root PDFs (`周方亚诺_中文简历.pdf`, `周方亚诺_英文简历.pdf`, `ZHOU Fangyanuo *.pdf`,
-  `作品集.pdf/.pptx`) — referenced by filename; upload new versions by replacing the file.
+- Repo-root PDFs (`CV_English.pdf`, `CV_Chinese.pdf`, `Portfolio.pdf`, `Portfolio.pptx`) —
+  referenced by filename; upload new versions by replacing the file. **Every repo filename is
+  English/ASCII** — keep it that way (the old Chinese names needed percent-encoding in URLs).
+- `archive/` — superseded material nothing links to: `CV_{English,Chinese}_legacy.pdf`,
+  `CV_{English,Chinese}.txt` (flattened dumps), `Portfolio-old.pptx`. Roots stay clean.
 - `index.html` — only touches site chrome (title, meta, script tags).
+
+## The `/cv` sub-site (`https://noahisarider.github.io/cv/`)
+
+A second, **English-only academic CV** built on the **jemdoc** template copied from
+<https://wenqifan03.github.io/>. Deliberately *outside* `scripts.js` — hand-written HTML:
+
+```
+cv/index.html       — Home: headshot, affiliation, Short Bio, research interests, news
+cv/research.html    — Publications (+ Patents) / Research Experience / Projects
+cv/background.html  — Education (+ Academic Engagement) / Awards & Honors / Technical Skills
+cv/jemdoc.css       — the template stylesheet (minus its emoji-decorated infoblock rules)
+```
+
+- The left-hand menu is duplicated in all three files: when you add a page or section, edit it in
+  every file; the current page's entry carries `class="current"`, the others anchor with `#id`.
+- Owner's conventions here: layout stays **full-bleed** (never cap `#layout-content` with
+  `max-width` — the template runs to the viewport edge: 1280px table at a 1280px viewport),
+  **no favicon `<link>`** (browser default), English only, academic content only.
+- Display name is `Fangyanuo Zhou` with a `Preferred name: Noah Zhou` subtitle; the degree is
+  always spelled out as *Major in Software Engineering, Minor in Business Administration*.
 
 ## Deployment
 
