@@ -24,6 +24,7 @@ noahchou/                  — the /noahchou/ landing page (seven chibi selves �
                              GitHub side of a hand-mirrored pair: the same files live in the Codeberg `pages`
                              repo as `noahchou/`, so the two hosts stay byte-identical. Edit both when changing it.
 <repo root>                — CV_English.pdf / CV_Chinese.pdf, Portfolio.pdf / Portfolio.pptx (linked from the site)
+                             + google4201cda6dfa1a0ac.html (Google Search Console verification — DO NOT DELETE)
 archive/                   — superseded files nothing links to (legacy CV PDFs, CV .txt dumps, Portfolio-old.pptx)
 ```
 
@@ -134,3 +135,10 @@ cv/jemdoc.css       — the template stylesheet (minus its emoji-decorated infob
   keeps its label — that one IS a club activity.)
 - Keep three languages in sync; the site is Noah's public academic face — verify all
   three versions after any content change.
+- **`google4201cda6dfa1a0ac.html` (2026-10-04):** Google Search Console **site
+  verification file** — lives at the repo root, served at
+  `https://noahisarider.github.io/google4201cda6dfa1a0ac.html`, content is the single
+  line `google-site-verification: google4201cda6dfa1a0ac.html`. **Never delete it**
+  (Google re-checks periodically; removing it un-verifies the property) and never
+  "clean it up" during an archive pass. If Google issues a new file, add the new one
+  and keep this one too.
