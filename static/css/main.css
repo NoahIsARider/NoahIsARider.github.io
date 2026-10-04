@@ -361,14 +361,15 @@ body.theme-dark #license-link {
 
 
 
-/* ORCID link — explicit colours so it reads as a link on both themes */
-.orcid-link {
-  color: #1a73e8;
-  text-decoration: underline;
+/* ORCID iD badge — an icon that sits next to the name: no text, no underline */
+.orcid-link,
+.orcid-link img {
+  text-decoration: none;
+  border: 0;
 }
 
-body.theme-dark .orcid-link {
-  color: #7cc4ff;
+.orcid-link img {
+  vertical-align: middle;
 }
 
 /* end of stylesheet */
