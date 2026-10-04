@@ -184,7 +184,8 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 **Achievements**:
 - Co-authored a multimodal MoE fake news detection paper accepted by IEEE TCE (DOI: 10.1109/TCE.2026.3677445).
-- A paper on counterfactual software defect detection is under review; a multi-task fake news detection paper is in progress.
+- Also co-authored "Towards Better Transparency and Reliability in Smart Contract Vulnerability Detection via Counterfactual Contrastive Explanations" (Y.-Y. Shi, F. Zhou, Y.-K. Wang, Q.-Y. Zou, H.-J. Song) — under review; a multi-task fake news detection paper is in progress.
+- A tourism trajectory simulation and visitor-flow prediction study for travel routes is in progress.
 - Open-source projects: https://github.com/KGoinger/WeSpeak , https://github.com/NoahIsARider/Reptile
 - Patent pending (expected approval in 2026.9-2026.10).
 
@@ -249,8 +250,13 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
         <a class="pub-link" href="CMLE_IEEE_TCE_2026.pdf" target="_blank" rel="noopener">PDF</a>
     </li>
-    <li>Counterfactual software defect detection paper under review</li>
+    <li>
+        Y.-Y. Shi, F. Zhou, Y.-K. Wang, Q.-Y. Zou, and H.-J. Song,
+        "Towards Better Transparency and Reliability in Smart Contract Vulnerability Detection via Counterfactual Contrastive Explanations"
+        <em>under review</em>.
+    </li>
     <li>Multi-task fake news detection paper in progress</li>
+    <li>Tourism trajectory simulation and visitor-flow prediction for travel routes, in progress</li>
 </ul>
 
 #### Patents
@@ -384,7 +390,7 @@ Feel free to email me for additional materials or demos.
 
 **成果与收获**：
 - 参与论文写作：多模态 MoE 假新闻检测论文已被 IEEE TCE 接收（DOI: 10.1109/TCE.2026.3677445）。
-- 反事实软件缺陷检测论文在投；多任务假新闻检测论文在撰写中。
+- 另有一篇关于智能合约漏洞检测的反事实对比解释论文（"Towards Better Transparency and Reliability in Smart Contract Vulnerability Detection via Counterfactual Contrastive Explanations"，Y.-Y. Shi, F. Zhou, Y.-K. Wang, Q.-Y. Zou, H.-J. Song）在投；多任务假新闻检测论文在撰写中；旅游轨迹模拟与路线热度预测论文在撰写中。
 - 开源项目产出：https://github.com/KGoinger/WeSpeak ，https://github.com/NoahIsARider/Reptile
 - 专利申请中（预计 2026 年 9-10 月通过）。
 
@@ -449,8 +455,13 @@ Feel free to email me for additional materials or demos.
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
         <a class="pub-link" href="CMLE_IEEE_TCE_2026.pdf" target="_blank" rel="noopener">PDF</a>
     </li>
-    <li>反事实软件缺陷检测论文在投</li>
+    <li>
+        Y.-Y. Shi, F. Zhou, Y.-K. Wang, Q.-Y. Zou, and H.-J. Song,
+        "Towards Better Transparency and Reliability in Smart Contract Vulnerability Detection via Counterfactual Contrastive Explanations"
+        <em>在投 (under review)</em>.
+    </li>
     <li>多任务假新闻检测论文撰写中</li>
+    <li>旅游轨迹模拟与路线热度预测论文撰写中</li>
 </ul>
 
 #### 专利
@@ -584,7 +595,7 @@ Feel free to email me for additional materials or demos.
 
 **成果與收穫**：
 - 參與論文寫作：多模態 MoE 假新聞檢測論文已被 IEEE TCE 接收（DOI: 10.1109/TCE.2026.3677445）。
-- 反事實軟件缺陷檢測論文在投；多任務假新聞檢測論文在撰寫中。
+- 另有一篇關於智能合約漏洞檢測的反事實對比解釋論文（"Towards Better Transparency and Reliability in Smart Contract Vulnerability Detection via Counterfactual Contrastive Explanations"，Y.-Y. Shi, F. Zhou, Y.-K. Wang, Q.-Y. Zou, H.-J. Song）在投；多任務假新聞檢測論文在撰寫中；旅遊軌跡模擬與路線熱度預測論文在撰寫中。
 - 開源項目產出：https://github.com/KGoinger/WeSpeak ，https://github.com/NoahIsARider/Reptile
 - 專利申請中（預計 2026 年 9-10 月通過）。
 
@@ -649,8 +660,13 @@ Feel free to email me for additional materials or demos.
         <em>IEEE Transactions on Consumer Electronics</em>, doi: 10.1109/TCE.2026.3677445.
         <a class="pub-link" href="CMLE_IEEE_TCE_2026.pdf" target="_blank" rel="noopener">PDF</a>
     </li>
-    <li>反事實軟件缺陷檢測論文在投</li>
+    <li>
+        Y.-Y. Shi, F. Zhou, Y.-K. Wang, Q.-Y. Zou, and H.-J. Song,
+        "Towards Better Transparency and Reliability in Smart Contract Vulnerability Detection via Counterfactual Contrastive Explanations"
+        <em>在投 (under review)</em>.
+    </li>
     <li>多任務假新聞檢測論文撰寫中</li>
+    <li>旅遊軌跡模擬與路線熱度預測論文撰寫中</li>
 </ul>
 
 #### 專利
