@@ -20,6 +20,9 @@ static/js/scripts.js       — ⭐ ALL content, config, and rendering logic (895
 static/css/                — styles (main.css, styles.css)
 static/assets/img/         — photo.jpg (square headshot), background.jpeg (hero bg), logo.png
 cv/                        — separate English academic CV sub-site (jemdoc template), served at /cv/
+noahchou/                  — the /noahchou/ landing page (seven chibi selves → seven doors). This folder is the
+                             GitHub side of a hand-mirrored pair: the same files live in the Codeberg `pages`
+                             repo as `noahchou/`, so the two hosts stay byte-identical. Edit both when changing it.
 <repo root>                — CV_English.pdf / CV_Chinese.pdf, Portfolio.pdf / Portfolio.pptx (linked from the site)
 archive/                   — superseded files nothing links to (legacy CV PDFs, CV .txt dumps, Portfolio-old.pptx)
 ```
