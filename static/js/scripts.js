@@ -131,7 +131,7 @@ const contentByLang = {
         home: `**Name**: Zhou Fangyanuo (Preferred name: Noah Zhou)  
 **Email**: noahchou2005@gmail.com  
 **Website**: https://github.com/NoahIsARider  
-**ORCID**: <a class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="_blank" rel="noopener noreferrer">0009-0008-5164-147X</a>  
+**ORCID**: <a id="cy-effective-orcid-url" class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" style="width: 1em; margin-inline-start: 0.5em" />https://orcid.org/0009-0008-5164-147X</a>  
 **Current City**: Guangdong, Guangzhou  
 **Hometown**: Jiujiang, Jiangxi  
 **Birthdate**: 2005-06  
@@ -334,7 +334,7 @@ Feel free to email me for additional materials or demos.
         home: `**姓名**：周方亚诺（英文名 Noah Zhou）  
 **邮箱**：noahchou2005@gmail.com  
 **项目网站**：https://github.com/NoahIsARider  
-**ORCID**：<a class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="_blank" rel="noopener noreferrer">0009-0008-5164-147X</a>  
+**ORCID**：<a class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" style="width: 1em; margin-inline-start: 0.5em" />https://orcid.org/0009-0008-5164-147X</a>  
 **现居城市**：广东广州  
 **籍贯**：江西九江  
 **生日**：2005-06  
@@ -536,7 +536,7 @@ Feel free to email me for additional materials or demos.
         home: `**姓名**：周方亞諾（英文名 Noah Zhou）  
 **郵箱**：noahchou2005@gmail.com  
 **個人網站**：https://github.com/NoahIsARider  
-**ORCID**：<a class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="_blank" rel="noopener noreferrer">0009-0008-5164-147X</a>  
+**ORCID**：<a class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" style="width: 1em; margin-inline-start: 0.5em" />https://orcid.org/0009-0008-5164-147X</a>  
 **現居城市**：廣東廣州  
 **籍貫**：江西九江  
 **生日**：2005-06  
