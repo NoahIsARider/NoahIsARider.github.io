@@ -129,9 +129,7 @@ const config = {
 const contentByLang = {
     en: {
         home: `**Name**: Zhou Fangyanuo (Preferred name: Noah Zhou)  
-**Phone**: 18779261101  
 **Email**: noahchou2005@gmail.com  
-**WeChat**: zfyn18779261101  
 **Website**: https://github.com/NoahIsARider  
 **Current City**: Guangdong, Guangzhou  
 **Hometown**: Jiujiang, Jiangxi  
@@ -287,8 +285,6 @@ Fake news detection, social computing, AI for Business, health and medical AI, r
 
 **Achievements**: Enhanced aesthetic ability and organizational coordination skills.
 
-**Douban**: <a class="douban-link" href="https://www.douban.com/people/227017213" target="_blank" rel="noopener">Douban profile</a>
-
 ---
 
 ### South China University of Technology "Innovation Accelerator" Training Camp (2024.9.21 - 2024.9.22)
@@ -335,9 +331,7 @@ Feel free to email me for additional materials or demos.
     },
     zh: {
         home: `**姓名**：周方亚诺（英文名 Noah Zhou）  
-**电话**：18779261101  
 **邮箱**：noahchou2005@gmail.com  
-**微信**：zfyn18779261101  
 **项目网站**：https://github.com/NoahIsARider  
 **现居城市**：广东广州  
 **籍贯**：江西九江  
@@ -492,8 +486,6 @@ Feel free to email me for additional materials or demos.
 
 **成果与收获**：提升审美能力与组织协调能力。
 
-**个人豆瓣主页**：<a class="douban-link" href="https://www.douban.com/people/227017213" target="_blank" rel="noopener">豆瓣账号链接</a>
-
 ---
 
 ### 华南理工大学“创新加速器”训练营（2024.9.21 - 2024.9.22）
@@ -540,9 +532,7 @@ Feel free to email me for additional materials or demos.
     },
     yue: {
         home: `**姓名**：周方亞諾（英文名 Noah Zhou）  
-**電話**：18779261101  
 **郵箱**：noahchou2005@gmail.com  
-**微信**：zfyn18779261101  
 **個人網站**：https://github.com/NoahIsARider  
 **現居城市**：廣東廣州  
 **籍貫**：江西九江  
@@ -696,8 +686,6 @@ Feel free to email me for additional materials or demos.
 - 撰寫影協公眾號推文，參與短視頻創作與採訪活動。
 
 **成果與收穫**：提升審美能力與組織協調能力。
-
-**個人豆瓣主頁**：<a class="douban-link" href="https://www.douban.com/people/227017213" target="_blank" rel="noopener">豆瓣帳號連結</a>
 
 ---
 
