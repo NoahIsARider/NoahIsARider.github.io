@@ -4,7 +4,7 @@ Source of my personal academic homepage: **<https://noahisarider.github.io/>**
 
 - **Main page** — bio, academic engagement, research experience, publications, projects, portfolio.
   Trilingual: English / 简体中文 / 繁體中文 (switch in the top-right corner).
-- **CV page** — **<https://noahisarider.github.io/cv/>** — English-only, minimal jemdoc-style layout,
+- **CV page** — **<https://noahisarider.github.io/fangyanuo-zhou/>** — English-only, minimal jemdoc-style layout,
   split into *Home* / *Research* / *Background*.
 
 ## About
@@ -62,3 +62,9 @@ The main page's layout is adapted from academic-homepage templates by
 [Yixin Huang](https://github.com/Yixin0313/personal-homepage-template);
 the `/cv` page follows [jemdoc](https://jemdoc.jaboc.net/), in the style of
 [Wenqi Fan's homepage](https://wenqifan03.github.io/). MIT licensed — see [`LICENSE`](LICENSE).
+
+> **2026-10-05 — the CV moved.** The English academic CV now lives in its own repo
+> (`NoahIsARider/fangyanuo-zhou`), served at <https://noahisarider.github.io/fangyanuo-zhou/>.
+> A CV-only change no longer redeploys this multi-platform site.
+> The `cv/` files here are **redirect stubs** for old links — edit the CV in
+> `D:/Projects/个人主页/fangyanuo-zhou`.

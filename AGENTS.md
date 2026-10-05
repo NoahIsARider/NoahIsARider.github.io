@@ -93,7 +93,14 @@ Search for the section key, e.g. `experience: \``, and edit the template literal
   `CV_{English,Chinese}.txt` (flattened dumps), `Portfolio-old.pptx`. Roots stay clean.
 - `index.html` — only touches site chrome (title, meta, script tags).
 
-## The `/cv` sub-site (`https://noahisarider.github.io/cv/`)
+## The `/cv` sub-site (`https://noahisarider.github.io/fangyanuo-zhou/`)
+
+> **2026-10-05 — the CV moved.** The English academic CV now lives in its own repo
+> (`NoahIsARider/fangyanuo-zhou`), served at <https://noahisarider.github.io/fangyanuo-zhou/>.
+> A CV-only change no longer redeploys this multi-platform site.
+> The `cv/` files here are **redirect stubs** for old links — edit the CV in
+> `D:/Projects/个人主页/fangyanuo-zhou`.
+
 
 A second, **English-only academic CV** built on the **jemdoc** template copied from
 <https://wenqifan03.github.io/>. Deliberately *outside* `scripts.js` — hand-written HTML:
