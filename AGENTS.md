@@ -109,7 +109,9 @@ cv/jemdoc.css       — the template stylesheet (minus its emoji-decorated infob
   every file; the current page's entry carries `class="current"`, the others anchor with `#id`.
 - Owner's conventions here: layout stays **full-bleed** (never cap `#layout-content` with
   `max-width` — the template runs to the viewport edge: 1280px table at a 1280px viewport),
-  **no favicon `<link>`** (browser default), English only, academic content only.
+  **no favicon asset; a deliberate `<link rel="icon" href="data:," />`** in each CV page
+  (this forces the browser's default globe icon — do NOT add a real favicon or a `favicon.ico`; the
+  empty data URI is the point), English only, academic content only.
 - Display name is `Fangyanuo Zhou` with a `Preferred name: Noah Zhou` subtitle; the degree is
   always spelled out as *Major in Software Engineering, Minor in Business Administration*.
 
