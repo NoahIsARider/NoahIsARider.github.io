@@ -24,7 +24,7 @@ noahchou/                  — the /noahchou/ landing page (seven chibi selves �
                              GitHub side of a hand-mirrored pair: the same files live in the Codeberg `pages`
                              repo as `noahchou/`, so the two hosts stay byte-identical. Edit both when changing it.
 <repo root>                — CV_English.pdf / CV_Chinese.pdf, Portfolio.pdf / Portfolio.pptx (linked from the site)
-                             + google4201cda6dfa1a0ac.html (Google Search Console verification — DO NOT DELETE)
+                             + google4201cda6dfa1a0ac.html (Google Search Console verification — DO NOT DELETE) + BingSiteAuth.xml (Bing Webmaster verification — DO NOT DELETE)
 archive/                   — superseded files nothing links to (legacy CV PDFs, CV .txt dumps, Portfolio-old.pptx)
 ```
 
@@ -143,4 +143,12 @@ cv/jemdoc.css       — the template stylesheet (minus its emoji-decorated infob
   line `google-site-verification: google4201cda6dfa1a0ac.html`. **Never delete it**
   (Google re-checks periodically; removing it un-verifies the property) and never
   "clean it up" during an archive pass. If Google issues a new file, add the new one
+  and keep this one too.
+
+- **`BingSiteAuth.xml` (2026-10-05):** Bing Webmaster Tools **site verification
+  file** — lives at the repo root, served at
+  `https://noahisarider.github.io/BingSiteAuth.xml`, content is
+  `<users><user>9D5E7318B9C383CEE47476B1DA55A80D</user></users>`. **Never delete it**
+  (Bing re-checks periodically; removing it un-verifies the property) and never
+  "clean it up" during an archive pass. If Bing issues a new file, add the new one
   and keep this one too.
