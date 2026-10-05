@@ -128,7 +128,7 @@ const config = {
 
 const contentByLang = {
     en: {
-        home: `**Name**: Zhou Fangyanuo (Preferred name: Noah Zhou) <a id="cy-effective-orcid-url" class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="orcid.widget" rel="me noopener noreferrer" style="text-decoration: none"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" style="width: 1em; margin-inline-start: 0.5em; vertical-align: middle" /></a>  
+        home: `**Name**: Fangyanuo Zhou (Preferred name: Noah Zhou) <a id="cy-effective-orcid-url" class="orcid-link" href="https://orcid.org/0009-0008-5164-147X" target="orcid.widget" rel="me noopener noreferrer" style="text-decoration: none"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD" style="width: 1em; margin-inline-start: 0.5em; vertical-align: middle" /></a>  
 **Email**: noahchou2005@gmail.com  
 **Website**: https://github.com/NoahIsARider  
 **Current City**: Guangdong, Guangzhou  
