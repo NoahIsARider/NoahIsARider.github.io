@@ -3,8 +3,11 @@
 Source of **<https://noahisarider.github.io/>** — one self-contained static page.
 
 No build step, no framework, no JavaScript, no external requests. The whole page is a single
-hand-written `index.html` with an inline stylesheet: Solarized `base3` paper, Helvetica, a 17% left
-indent and a 33em measure, with hanging em-dash markers.
+hand-written `index.html` with an inline stylesheet.
+
+**The design is not original: the page follows [noah.is-a.dev](https://noah.is-a.dev/)** — the same
+paper palette, 17% left indent, 33em measure, uppercase section heads, hanging em-dash markers and
+fixed side panel. See [Credits](#credits).
 
 ## The page
 
@@ -53,8 +56,13 @@ especially hard.
 
 ## Credits
 
-The page is hand-written. The repository still carries, now unused, the assets of the
-academic-homepage templates it originally started from —
-[Sen Li](https://github.com/senli1073/senli1073.github.io) and
+**Design inspiration: [noah.is-a.dev](https://noah.is-a.dev/).** The markup is hand-written for this
+site, but the visual system is a deliberate imitation of that page: Solarized `base3` paper, the
+Helvetica setting, the 17% indent with a 33em measure, uppercase section labels, the "— " row
+markers set to hang outside the text column, and the fixed panel whose two edges line up with the
+top navigation.
+
+The repository also still carries, now unused, the assets of the academic-homepage templates it
+originally started from — [Sen Li](https://github.com/senli1073/senli1073.github.io) and
 [Yixin Huang](https://github.com/Yixin0313/personal-homepage-template) — under the MIT licence in
 [`LICENSE`](LICENSE).
