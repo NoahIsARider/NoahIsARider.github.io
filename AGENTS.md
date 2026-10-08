@@ -1,161 +1,91 @@
-# AGENTS.md — Noah's Academic Homepage (noahisarider.github.io)
+# AGENTS.md — noahisarider.github.io
 
-> 中文摘要：本站所有页面内容（主页/荣誉/经历/论文/作品集/课外活动）**全部内联在
-> `static/js/scripts.js` 的 `contentByLang` 对象里**，分 en / zh / yue（英/简中/繁中）
-> 三种语言。`contents/*.md` 已于 2026-08-31 删除——它们是模板残留的死文件，
-> 从未被加载，改它们不会影响线上。**改内容只改 scripts.js，改完推 main 即自动部署。**
+> 中文摘要：主页现在是**一个自包含的静态 `index.html`**（内容 + 样式 + JSON-LD 全在一个文件里）。
+> 旧的 `static/js/scripts.js`（contentByLang 三语渲染那套）**已经不再被任何页面加载**，改它不会影响线上。
+> **改内容只改 `index.html`，推 `main` 即自动部署。**
+> 根目录的 `google4201cda6dfa1a0ac.html` 和 `BingSiteAuth.xml` 是搜索平台验证文件，**永远不要删**。
 
 ## What this site is
 
-A single-page academic homepage (Bootstrap-based) served as a static site from this
-repo via GitHub Pages (https://noahisarider.github.io/). No build step — the browser
-loads `index.html` + `static/js/scripts.js` and renders everything client-side
-(marked.js converts embedded Markdown to HTML).
+<https://noahisarider.github.io/> — a single-page personal index served as a static site from this
+repository by GitHub Pages. **No build step, no framework, no JavaScript, no external requests.**
+The entire page is `index.html`: markup, one inline `<style>` block and the JSON-LD graph together.
 
-## Architecture (single source of truth: `static/js/scripts.js`)
+Served from branch `main`, repository root (`Settings → Pages`).
 
-```
-index.html                 — page skeleton, loads bootstrap/marked/mathjax/scripts.js
-static/js/scripts.js       — ⭐ ALL content, config, and rendering logic (895 lines)
-static/css/                — styles (main.css, styles.css)
-static/assets/img/         — photo.jpg (square headshot), background.jpeg (hero bg), logo.png
-cv/                        — separate English academic CV sub-site (jemdoc template), served at /cv/
-noahchou/                  — the /noahchou/ landing page (seven chibi selves → seven doors). This folder is the
-                             GitHub side of a hand-mirrored pair: the same files live in the Codeberg `pages`
-                             repo as `noahchou/`, so the two hosts stay byte-identical. Edit both when changing it.
-<repo root>                — CV_English.pdf / CV_Chinese.pdf, Portfolio.pdf / Portfolio.pptx (linked from the site)
-                             + google4201cda6dfa1a0ac.html (Google Search Console verification — DO NOT DELETE) + BingSiteAuth.xml (Bing Webmaster verification — DO NOT DELETE)
-archive/                   — superseded files nothing links to (legacy CV PDFs, CV .txt dumps, Portfolio-old.pptx)
-```
+## Architecture — everything is in `index.html`
 
-### scripts.js layout (line numbers as of 2026-08-31)
+| Part | What |
+|---|---|
+| `<head>` | title / meta / OpenGraph / Twitter, canonical, inline SVG favicon, JSON-LD `@graph` (Person, WebSite, two ScholarlyArticle) |
+| `<style>` | the whole design system — CSS custom properties plus ~60 lines of rules |
+| `.mast` | lockup left, section nav right (Research / Projects / Sites / Writing / CV) |
+| `.main` | intro paragraphs, the CV call-out, the facts `<dl>`, then `#research`, `#projects`, `#sites`, `#writing`, `#now` |
+| `aside.now` | the fixed right-hand panel: the quote, its attribution, the contact list |
+| `.foot` | last-updated, email, GitHub |
 
-| Lines | What |
-|-------|------|
-| 1–127 | i18n config: `supportedLangs`, nav labels, section subtitles, theme-button text, resume links, copyright (per language) |
-| 129–697 | `contentByLang` — the actual page content, one block per language |
-| 697–895 | rendering logic: language switching, theme toggle, markdown render, section injection |
+### The design system is the page's identity — keep it in sync
 
-### contentByLang structure
+- Solarized palette: paper `#fdf6e3` (base3), secondary text `#657b83` (base00), rules and the hover
+  highlight `#eee8d5` (base2), body text `#111`
+- Helvetica Neue stack, 17px, line-height 1.06, letter-spacing −0.012em
+- `.main` sits at a 17% left indent with a 33em measure — 218px and 561px at a 1280px viewport
+- Section heads are uppercase, with an 80px gap above each one
+- List markers are **hanging em dashes**: `:before{content:"\2014";position:absolute;left:-1.3em}`
+  with `position:relative` on the item, which keeps the text's left edge flush with the paragraphs
+  above and below. The one exception is inside `aside.now`, where the dashes are inline.
+- `aside.now` is fixed, vertically centred, `right:26px` and `width:314px`. Those numbers are the
+  top nav's own measured box, which is what makes the panel's edges line up with "Research" and "CV".
+  A media query below 1200px turns it into a normal in-flow card instead.
+- The tab icon is `static/assets/logo.png` — the original file, untouched. The CV repo deliberately
+  uses a blank icon instead.
 
-```js
-const contentByLang = {
-  en:  { home: `...`, awards: `...`, experience: `...`, publications: `...`, extracurricular: `...`, portfolio: `...` },
-  zh:  { home: `...`, ... },   // 简体中文
-  yue: { home: `...`, ... }    // 繁體中文 (fallback chain: yue → zh → en)
-};
-```
+## Editing
 
-Each value is a Markdown template literal (HTML is allowed inside, e.g. the
-`<ul class="pub-list">` in publications, `<span class="highlight-blue">` in awards).
+1. Edit `index.html` directly — content and style are the same file. There is no content array, no
+   Markdown, no `fetch()`.
+2. Check the change in a browser first (`python -m http.server` in the repo root is enough).
+3. Push to `main`. Pages redeploys in about a minute. Hard-refresh (Ctrl+F5) — there is no cache
+   busting, and browsers cache the tab icon especially hard.
 
-**Language fallback:** if a language lacks a section, it falls back
-`yue → zh → en` (lines 802–804). Keep all three in sync when you change content.
+**Never re-introduce** `static/js/scripts.js`, `static/css/*`, Bootstrap or marked.js. They are the
+old architecture's leftovers: no page loads them any more, so editing them changes nothing.
 
-## How to edit content
+## Files that must not be touched
 
-### 1. Find the right spot
+| Path | Why |
+|---|---|
+| `google4201cda6dfa1a0ac.html` | Google Search Console verification. Content is the single line `google-site-verification: google4201cda6dfa1a0ac.html`. Deleting it un-verifies the property. |
+| `BingSiteAuth.xml` | Bing Webmaster verification (`<users><user>9D5E7318B9C383CEE47476B1DA55A80D</user></users>`). Same rule. |
+| `.nojekyll` | Stops Jekyll from touching the tree. |
+| `404.html` | Forwards retired CV paths (`/FangyanuoZhou/`, any case) to `/cv/`. Pages serves it for unknown paths. |
+| `fangyanuo-zhou/`, `fangyanuozhou/` | Meta-refresh stubs keeping retired CV paths alive. Windows checkouts are case-insensitive while Pages is case-sensitive — hence both spellings plus the `404.html` net. |
+| `noahchou/` | The `/noahchou/` landing page, and one half of a **hand-mirrored pair**: the same files live in the Codeberg `pages` repo. Edit both and keep them byte-identical. |
 
-| Section you want to change | Key in contentByLang | Subtitle (i18n) |
-|---|---|---|
-| 首页/Home | `home` | `home-subtitle` |
-| 奖励荣誉/Awards | `awards` | `awards-subtitle` |
-| 项目经历/Experience | `experience` | `experience-subtitle` |
-| 论文与成果/Publications | `publications` | `publications-subtitle` |
-| 课外活动/Extracurricular | `extracurricular` | `extracurricular-subtitle` |
-| 作品集/Portfolio | `portfolio` | `portfolio-subtitle` |
+## Related repositories
 
-Every change must be made **in all three language blocks** (en ≈ line 130, zh ≈ line 319, yue ≈ line 508).
-Search for the section key, e.g. `experience: \``, and edit the template literal for each language.
+- **CV** — `NoahIsARider/cv`, served at <https://noahisarider.github.io/cv/> in English / 简体 / 繁體.
+  That repo is self-contained: it carries its own copies of the PDFs, the photo and the stylesheet.
+  Local checkout is `D:/Projects/个人主页/fangyanuo-zhou`.
+- **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube, noahsblog and the
+  rest are **separate repositories**, each a Pages project served under this domain (`/oblivio/`,
+  `/Platonia/`, …). They are not in this repository, so editing here does nothing to them.
+- **Cloudflare Pages mirror** — a CF Pages project serves an older copy of this site under
+  `noahisarider.pages.dev` and `noahisarider-github-io.pages.dev`. It does **not** follow pushes
+  automatically: retry the deployment from the CF dashboard to refresh it.
 
-### 2. Common operations
+## Conventions and history
 
-- **Edit text:** modify the Markdown inside the backticks. Keep the backtick-quote
-  structure intact (`` key: `...` `` — don't break the template literal).
-- **Add an experience/project entry:** copy an existing `### Title, *Role* (dates)` block
-  (including the `---` separator) and paste it inside the same template literal.
-- **Add a publication:** in the `publications` block, copy an existing
-  `<li>...</li>` entry inside `<ul class="pub-list">`. The CMLE entry is the reference format:
-  authors, `"Title"` (no comma before the closing quote), `<em>Journal</em>`, doi + DOI link.
-- **Add a whole new section:** add a key to `contentByLang` for all three languages,
-  add a nav label + subtitle in the i18n config, and (if needed) a section entry in the
-  `sections` array (near line 18).
-- **Rename / add links:** e.g. resume PDFs are referenced in the i18n `resume-links`
-  entries and from `home`/CV buttons.
-
-### 3. Things that are NOT in scripts.js
-
-- `static/assets/img/` — replace `photo.jpg` / `background.jpeg` to change portrait/hero.
-- Repo-root PDFs (`CV_English.pdf`, `CV_Chinese.pdf`, `Portfolio.pdf`, `Portfolio.pptx`) —
-  referenced by filename; upload new versions by replacing the file. **Every repo filename is
-  English/ASCII** — keep it that way (the old Chinese names needed percent-encoding in URLs).
-- `archive/` — superseded material nothing links to: `CV_{English,Chinese}_legacy.pdf`,
-  `CV_{English,Chinese}.txt` (flattened dumps), `Portfolio-old.pptx`. Roots stay clean.
-- `index.html` — only touches site chrome (title, meta, script tags).
-
-## The `/cv` sub-site (`https://noahisarider.github.io/fangyanuo-zhou/`)
-
-> **2026-10-05 — the CV moved.** The English academic CV now lives in its own repo
-> (`NoahIsARider/fangyanuo-zhou`), served at <https://noahisarider.github.io/fangyanuo-zhou/>.
-> A CV-only change no longer redeploys this multi-platform site.
-> The `cv/` files here are **redirect stubs** for old links — edit the CV in
-> `D:/Projects/个人主页/fangyanuo-zhou`.
-
-
-A second, **English-only academic CV** built on the **jemdoc** template copied from
-<https://wenqifan03.github.io/>. Deliberately *outside* `scripts.js` — hand-written HTML:
-
-```
-cv/index.html       — Home: headshot, affiliation, Short Bio, research interests, news
-cv/research.html    — Publications (+ Patents) / Research Experience / Projects
-cv/background.html  — Education (+ Academic Engagement) / Awards & Honors / Technical Skills
-cv/jemdoc.css       — the template stylesheet (minus its emoji-decorated infoblock rules)
-```
-
-- The left-hand menu is duplicated in all three files: when you add a page or section, edit it in
-  every file; the current page's entry carries `class="current"`, the others anchor with `#id`.
-- Owner's conventions here: layout stays **full-bleed** (never cap `#layout-content` with
-  `max-width` — the template runs to the viewport edge: 1280px table at a 1280px viewport),
-  **no favicon asset; a deliberate `<link rel="icon" href="data:," />`** in each CV page
-  (this forces the browser's default globe icon — do NOT add a real favicon or a `favicon.ico`; the
-  empty data URI is the point), English only, academic content only.
-- Display name is `Fangyanuo Zhou` with a `Preferred name: Noah Zhou` subtitle; the degree is
-  always spelled out as *Major in Software Engineering, Minor in Business Administration*.
-
-## Deployment
-
-- Branch `main` → GitHub Pages deploys automatically (repo settings: Pages → main / root).
-- Push via HTTPS (token) or SSH; commit identity must be `NoahIsARider`
-  (`noahisarider@users.noreply.github.com`), never a bot identity.
-- After pushing, hard-refresh (Ctrl+F5) — the site is pure static, no cache busting.
-- To verify: open the page, check the section you edited in all three languages
-  (top-right language switcher: English / 简中 / 繁中).
-
-## History / pitfalls
-
-- **2026-08-31:** `contents/*.md` + `contents/config.yml` were **deleted** — they were
-  leftover template files that nothing ever fetched (scripts.js has zero `fetch()` calls;
-  all content is inline). Editing them silently does nothing. Do not recreate them.
-- **CMLE citation:** the paper title must NOT have a comma before the closing quote:
-  `"CMLE: ... Fake News Detection"` (no trailing comma inside the quotes).
-- **Lianshan field research** (2026-08-31): the entry stays in extracurricular but
-  the "社团活动：/社團活動：/Extracurricular:" prefix was removed — it is research,
-  not a club activity. Keep the entry, never re-add the club label. (CC Film Club
-  keeps its label — that one IS a club activity.)
-- Keep three languages in sync; the site is Noah's public academic face — verify all
-  three versions after any content change.
-- **`google4201cda6dfa1a0ac.html` (2026-10-04):** Google Search Console **site
-  verification file** — lives at the repo root, served at
-  `https://noahisarider.github.io/google4201cda6dfa1a0ac.html`, content is the single
-  line `google-site-verification: google4201cda6dfa1a0ac.html`. **Never delete it**
-  (Google re-checks periodically; removing it un-verifies the property) and never
-  "clean it up" during an archive pass. If Google issues a new file, add the new one
-  and keep this one too.
-
-- **`BingSiteAuth.xml` (2026-10-05):** Bing Webmaster Tools **site verification
-  file** — lives at the repo root, served at
-  `https://noahisarider.github.io/BingSiteAuth.xml`, content is
-  `<users><user>9D5E7318B9C383CEE47476B1DA55A80D</user></users>`. **Never delete it**
-  (Bing re-checks periodically; removing it un-verifies the property) and never
-  "clean it up" during an archive pass. If Bing issues a new file, add the new one
-  and keep this one too.
+- Commit identity for this repository: `noahisarider <noahchou2005@gmail.com>`.
+- Every filename in the repository is ASCII. Keep it that way.
+- `archive/` holds superseded material that nothing links to. The root stays clean.
+- **2026-10-08 — the main page was rebuilt.** The old Bootstrap page whose content lived in
+  `scripts.js`'s `contentByLang` and was rendered client-side by marked.js was replaced by the
+  current single static file. The real name and all grade and award wording were dropped, the page
+  is English-only, and the language switcher is gone. The retired assets were left on disk but are
+  no longer loaded by anything.
+- **2026-08-31, still true:** `contents/*.md` and `contents/config.yml` were deleted — leftover
+  template files that nothing ever fetched. Do not recreate them.
+- **Paper citation format:** no comma before the closing quote in a paper title.
+- The old note about the layout being adapted from Sen Li's and Yixin Huang's templates now applies
+  only to the leftover `static/` assets — the current page is hand-written. MIT licence.

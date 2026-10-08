@@ -1,70 +1,60 @@
-# Fangyanuo Zhou (Noah Zhou) — Academic Homepage
+# noahisarider — personal index
 
-Source of my personal academic homepage: **<https://noahisarider.github.io/>**
+Source of **<https://noahisarider.github.io/>** — one self-contained static page.
 
-- **Main page** — bio, academic engagement, research experience, publications, projects, portfolio.
-  Trilingual: English / 简体中文 / 繁體中文 (switch in the top-right corner).
-- **CV page** — **<https://noahisarider.github.io/fangyanuo-zhou/>** — English-only, minimal jemdoc-style layout,
-  split into *Home* / *Research* / *Background*.
+No build step, no framework, no JavaScript, no external requests. The whole page is a single
+hand-written `index.html` with an inline stylesheet: Solarized `base3` paper, Helvetica, a 17% left
+indent and a 33em measure, with hanging em-dash markers.
 
-## About
+## The page
 
-Undergraduate at South China University of Technology (SCUT), in a dual degree program:
-**Major in Software Engineering, Minor in Business Administration** (2023.9 – 2027.6).
-Ranked **1st in grade** — weighted average 92.24/100, GPA 3.95/4.00.
-IELTS 8.0/9.0, GRE Verbal 161/170, Quantitative 170/170.
+Intro (education, IELTS, GPA and class rank) → **CV** link → **Research** (five projects with their
+supervisors, each project's papers nested underneath) → **Projects** → **Sites** → **Writing** →
+**Now** (books, films, music, games) → footer. A fixed panel on the right carries a quote and the
+contact list, its edges aligned to the top navigation. Below 1200px it stops floating and falls into
+the document flow.
 
-**Research interests** — fake news detection, social computing, AI for Business, health and medical AI,
-recommender systems, multi-agent systems, LLM value alignment, multimodal learning, sentiment analysis,
-hallucination research, computer vision and target recognition.
-
-Currently a research assistant with Prof. Quanyi Zou (interdisciplinary research on news communication
-and large models) and Prof. Yuanyuan Dang (multimodal AI mental-health coaching system; AIGC medical
-case generation). Co-author of *CMLE: A Collaborative LoRA-Enhanced Expert Framework for Multimodal
-Fake News Detection* — **IEEE Transactions on Consumer Electronics**, doi 10.1109/TCE.2026.3677445.
-One paper under review; patent pending.
-
-[CV (English, PDF)](CV_English.pdf) · [CV (中文, PDF)](CV_Chinese.pdf) · [GitHub](https://github.com/NoahIsARider) · [Email](mailto:noahchou2005@gmail.com)
-
-## Repository layout
+## Layout
 
 ```
-index.html                 main page skeleton (Bootstrap shell, no build step)
-static/js/scripts.js       ALL main-page content, i18n config and rendering logic (en / zh / yue)
-static/css/                styles
-static/assets/img/         photo.jpg (headshot), background.jpeg (hero background), logo.png
-cv/                        English CV sub-site: index.html / research.html / background.html + jemdoc.css
-CV_English.pdf             CV — English
-CV_Chinese.pdf             CV — 中文
-Portfolio.pdf / .pptx      portfolio deck
-CMLE_IEEE_TCE_2026.pdf     the IEEE TCE paper (full text)
-archive/                   superseded material nothing links to (old CVs, CV .txt dumps, unused vendor JS)
+index.html                  the page — markup, inline CSS and JSON-LD in one file
+404.html                    forwards retired CV paths to /cv/
+noahchou/                   the /noahchou/ landing page (hand-mirrored to the Codeberg pages repo — edit both)
+static/assets/              logo.png (tab icon) and img/photo.jpg (referenced by the JSON-LD)
+static/js, static/css       superseded assets — nothing loads them any more
+fangyanuo-zhou/, fangyanuozhou/    meta-refresh stubs for the retired CV paths
+CV_*.pdf, Portfolio.*, CMLE_IEEE_TCE_2026.pdf    documents the CV page links to
+archive/                    superseded material nothing links to
+sitemap.xml, robots.txt     crawler files
+google4201cda6dfa1a0ac.html, BingSiteAuth.xml    search-console verification — never delete
+LICENSE, AGENTS.md
 ```
 
 ## Editing
 
-**Main page.** There is no build step and no external content files: every section lives inline in
-`static/js/scripts.js`, in the `contentByLang` object, as one Markdown template literal per section
-per language. `index.html` loads `marked.js`, which renders them client-side. Edit all three language
-blocks (`en` / `zh` / `yue`) when you change content. See [`AGENTS.md`](AGENTS.md) for the detailed guide.
+Everything lives in `index.html` — content and styling in the same file. There is no external
+content file, no content array and no render step. Open it in a browser before pushing. See
+[`AGENTS.md`](AGENTS.md) for the conventions: the parts of the design system that carry the page's
+identity, the files that must not be touched, and how the sub-sites relate to this repo.
 
-**CV page.** Hand-written static HTML under `cv/` — English only, academic content only. The left-hand
-menu is duplicated across the three pages, so keep it in sync (the current page's entry carries
-`class="current"`; the others link to `#section` anchors on the sibling pages).
+## Deploy
 
-**Deploy.** Push to `main`; GitHub Pages serves the repository root automatically. There is no cache
-busting, so hard-refresh (Ctrl+F5) after deploying.
+Push to `main`. GitHub Pages serves the repository root — the site is live about a minute later.
+There is no cache busting, so hard-refresh (Ctrl+F5) to see a change. Browsers cache the tab icon
+especially hard.
+
+## Related
+
+- **CV** — its own repository, [`NoahIsARider/cv`](https://github.com/NoahIsARider/cv), served at
+  <https://noahisarider.github.io/cv/> in English, 简体中文 and 繁體中文
+- **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube and the rest are
+  separate repositories, each served as a Pages project under this domain
+- The stubs listed above keep the retired `/fangyanuo-zhou/` paths answering
 
 ## Credits
 
-The main page's layout is adapted from academic-homepage templates by
+The page is hand-written. The repository still carries, now unused, the assets of the
+academic-homepage templates it originally started from —
 [Sen Li](https://github.com/senli1073/senli1073.github.io) and
-[Yixin Huang](https://github.com/Yixin0313/personal-homepage-template);
-the `/cv` page follows [jemdoc](https://jemdoc.jaboc.net/), in the style of
-[Wenqi Fan's homepage](https://wenqifan03.github.io/). MIT licensed — see [`LICENSE`](LICENSE).
-
-> **2026-10-05 — the CV moved.** The English academic CV now lives in its own repo
-> (`NoahIsARider/fangyanuo-zhou`), served at <https://noahisarider.github.io/fangyanuo-zhou/>.
-> A CV-only change no longer redeploys this multi-platform site.
-> The `cv/` files here are **redirect stubs** for old links — edit the CV in
-> `D:/Projects/个人主页/fangyanuo-zhou`.
+[Yixin Huang](https://github.com/Yixin0313/personal-homepage-template) — under the MIT licence in
+[`LICENSE`](LICENSE).
