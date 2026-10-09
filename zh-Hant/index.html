@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>noahisarider — 首頁</title>
+<meta name="description" content="Noah Chou（noahisarider）的研究、項目與小型網絡工具。">
+<meta name="author" content="Noah Chou">
+<meta name="robots" content="index, follow">
+<meta name="referrer" content="no-referrer">
+<link rel="canonical" href="https://noahisarider.github.io/zh-Hant/">
+<link rel="alternate" hreflang="en" href="https://noahisarider.github.io/">
+<link rel="alternate" hreflang="zh-Hans" href="https://noahisarider.github.io/zh/">
+<link rel="alternate" hreflang="zh-Hant" href="https://noahisarider.github.io/zh-Hant/">
+<link rel="alternate" hreflang="x-default" href="https://noahisarider.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="noahisarider">
+<meta property="og:title" content="noahisarider — 首頁">
+<meta property="og:description" content="研究、項目與小型網絡工具。">
+<meta property="og:url" content="https://noahisarider.github.io/zh-Hant/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="noahisarider — 首頁">
+<meta name="twitter:description" content="研究、項目與小型網絡工具。">
+<link rel="icon" type="image/png" href="/static/assets/logo.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://noahisarider.github.io/#person",
+      "name": "Noah Chou",
+      "alternateName": ["noahisarider", "NoahIsARider"],
+      "url": "https://noahisarider.github.io/",
+      "image": "https://noahisarider.github.io/static/assets/img/photo.jpg",
+      "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0008-5164-147X"},
+      "jobTitle": "Undergraduate in software engineering, with a minor in business administration",
+      "affiliation": {"@type": "CollegeOrUniversity", "name": "South China University of Technology", "url": "https://www.scut.edu.cn/en/"},
+      "knowsAbout": ["fake news detection", "multimodal learning", "large language models", "multi-agent systems", "recommender systems", "computer vision", "human-AI collaboration"],
+      "sameAs": [
+        "https://github.com/NoahIsARider",
+        "https://codeberg.org/NoahIsARider",
+        "https://huggingface.co/NoahIsARider",
+        "https://sr.ht/~noahisarider/",
+        "https://orcid.org/0009-0008-5164-147X",
+        "https://scholar.google.com/citations?user=CLf-BNAAAAAJ",
+        "https://www.linkedin.com/in/noahzhou2005",
+        "https://x.com/NoahIsARider",
+        "https://mastodon.social/@noahisarider",
+        "https://bsky.app/profile/noahisarider.bsky.social",
+        "https://noahisarider.codeberg.page/",
+        "https://noahisarider.github.io/noahchou/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://noahisarider.github.io/#site",
+      "name": "noahisarider",
+      "url": "https://noahisarider.github.io/",
+      "description": "Research, projects and small web instruments.",
+      "author": {"@id": "https://noahisarider.github.io/#person"}
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "CMLE: a collaborative LoRA-enhanced expert framework for multimodal fake news detection",
+      "author": [
+        {"@type": "Person", "name": "Q.-Y. Zou"}, {"@type": "Person", "name": "G. Chen"},
+        {"@type": "Person", "name": "F. Zhou", "@id": "https://noahisarider.github.io/#person"},
+        {"@type": "Person", "name": "X.-K. Wu"}, {"@type": "Person", "name": "Z.-Y. Yang"},
+        {"@type": "Person", "name": "Y.-Y. Shi"}
+      ],
+      "datePublished": "2026",
+      "isPartOf": {"@type": "Periodical", "name": "IEEE Transactions on Consumer Electronics"},
+      "sameAs": "https://doi.org/10.1109/TCE.2026.3677445"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Towards better transparency and reliability in smart contract vulnerability detection via counterfactual contrastive explanations",
+      "author": [
+        {"@type": "Person", "name": "Y.-Y. Shi"},
+        {"@type": "Person", "name": "F. Zhou", "@id": "https://noahisarider.github.io/#person"},
+        {"@type": "Person", "name": "Y.-K. Wang"}, {"@type": "Person", "name": "Q.-Y. Zou"},
+        {"@type": "Person", "name": "H.-J. Song"}
+      ],
+      "creativeWorkStatus": "Under review"
+    }
+  ]
+}
+</script>
+<style>
+:root{--paper:#fdf6e3;--ink:#111;--dim:#657b83;--rule:#eee8d5;--hi:#eee8d5;--measure:33em;--indent:17%;
+--sans:"Helvetica Neue",Helvetica,Inter,"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}
+html,body{background:var(--paper);margin:0;padding:0}
+body{font-family:var(--sans);color:var(--ink);font-size:17px;line-height:1.06;letter-spacing:-.012em;
+-webkit-font-smoothing:antialiased}
+.page{display:flex;flex-direction:column;min-height:100vh}
+a{color:inherit;text-decoration:none}
+a:hover{background:var(--hi)}
+.mast{position:sticky;top:0;z-index:20;background:var(--paper);display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding:22px 26px 0}
+.mast .nav{display:flex;gap:18px;font-size:17px}
+.brand{display:flex;align-items:baseline;gap:14px;font-size:22px}
+.lang{position:absolute;bottom:0;left:calc(var(--indent) + 26px);font-size:17px;color:var(--dim);white-space:nowrap}
+.lang a{color:var(--dim)}
+.lang a:hover{background:var(--hi);color:var(--ink)}
+.lang .cur{color:var(--ink)}
+.lang .sep{color:var(--dim);opacity:.45}
+.main{flex:1;margin:104px 0 0 var(--indent);max-width:var(--measure);padding:0 26px 120px}
+.lede{margin:0 0 26px;line-height:1.28}
+.sec{text-transform:uppercase;margin:80px 0 28px}
+.row{margin:0 0 26px}
+.row h2,.row h3{margin:0;font-size:17px;font-weight:400;line-height:1.06;letter-spacing:inherit;position:relative}
+.row h2:before,.row h3:before{content:"\2014";position:absolute;left:-1.3em}
+.meta{color:var(--dim)}
+.desc{margin:0;max-width:var(--measure)}
+.cv{margin:0 0 34px}
+.cv h3{margin:0;font-size:17px;font-weight:400;position:relative}
+.cv h3:before{content:"\2192";position:absolute;left:-1.3em}
+.cv h3 a{text-decoration:underline;text-underline-offset:2px}
+.facts{margin:0 0 26px}
+.facts dt{color:var(--dim);text-transform:uppercase;display:inline}
+.facts dt:after{content:": "}
+.facts dd{margin:0;display:inline}
+.entry{margin:0 0 34px}
+.entry h3{margin:0;font-size:17px;font-weight:400;position:relative}
+.entry h3:before{content:"\2014";position:absolute;left:-1.3em}
+.entry .desc{margin:0}
+.sub{margin:12px 0 0 4px;padding:0 0 0 26px;border-left:1px solid var(--rule);list-style:none}
+.sub li{margin:0 0 7px;position:relative}
+.sub li:before{content:"\2014";position:absolute;left:-1.3em}
+.links{margin:0 0 26px;padding:0;list-style:none}
+.links li{position:relative}
+.links li:before{content:"\2014";position:absolute;left:-1.3em}
+.links a,.sub a,.desc a{text-decoration:underline;text-underline-offset:2px}
+.foot{display:flex;flex-wrap:wrap;gap:26px;padding:0 26px 22px;color:var(--dim)}
+.rail{position:fixed;top:144px;right:26px;width:314px}
+.now{margin:0;background:#e9e6e1;padding:22px 24px 20px;font-size:15px;line-height:1.3}
+.share{margin:12px 0 0;background:#e9e6e1;padding:22px 24px 20px;font-size:15px;line-height:1.3}
+.share-hd{color:var(--dim);font-size:13px;letter-spacing:.08em;margin:0 0 12px}
+.now-hd{text-transform:uppercase;color:var(--dim);font-size:13px;letter-spacing:.08em;margin:22px 0 12px}
+.now-quote{margin:0 0 8px}
+.now-cite{margin:0 0 18px;color:var(--dim)}
+.now-lead{margin:0 0 10px;color:var(--dim)}
+.now-list{margin:0;padding:0;list-style:none}
+.now-list li{margin:0 0 7px}
+.now-list li:before{content:"\2014\00a0"}
+.now-list .meta{color:var(--dim)}
+@media (max-width:1199px){.rail{position:static;right:auto;width:auto;
+max-width:var(--measure);margin:0 0 40px}}
+@media (max-width:820px){:root{--indent:0%}.main{margin-top:56px}.mast{flex-direction:column;align-items:flex-start;gap:8px}
+.sec,.lede{margin-top:72px}.lang{position:static;margin:0}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="mast">
+<div class="brand">
+<a href="/zh-Hant/">noahisarider</a>
+<span class="lang"><a href="/">English</a><span class="sep">/</span><a href="/zh/">简体</a><span class="sep">/</span><a href="/zh-Hant/" class="cur">繁體</a></span>
+</div>
+<div class="nav">
+<a href="#research">研究</a>
+<a href="#projects">項目</a>
+<a href="#sites">網站</a>
+<a href="#writing">寫作</a>
+<a href="#now">現在</a>
+<a href="/cv/">履歷</a>
+</div>
+</div>
+
+<div class="main">
+
+<p class="lede">嗨，我是 Noah Chou，以 <b>noahisarider</b> 的名義工作。我的研究處在大模型與媒體、與人交匯的地方——多模態假新聞檢測、大模型對齊、多智能體仿真、人機協作，以及推薦系統。我開發的一面則偏向小型網絡工具，以及讓這些模型真正可用的界面。</p>
+
+<p class="lede">我是華南理工大學的一名本科生，主修軟件工程，輔修工商管理。<b>IELTS 8.0/9.0。GPA 3.95/4.00，年級排名第一。</b></p>
+
+<div class="cv">
+<h3><a href="/cv/">履歷</a></h3>
+<p class="desc"><span class="meta">完整記錄：教育、研究、發表、獎項、項目與技能。</span></p>
+</div>
+
+<dl class="facts">
+<div><dt>編程</dt><dd>Python, C++, Java, MySQL, Linux。Flask, Vue, Docker, RPC, 微服務。大數據棧：Flume, Kafka, Flink, HBase, Spark, HDFS, ClickHouse。深度學習、微調、評測流水線。AI 輔助開發：Hermes, OpenClaw, Trae, Copilot, Claude Code, MCP。</dd></div>
+<div><dt>製作</dt><dd>視頻剪輯、音樂製作、圖表繪製、鋼琴。</dd></div>
+<div><dt>閱讀</dt><dd>神經科學、人類學、哲學、博弈論。它們不斷改變我如何框定自己的工作。</dd></div>
+</dl>
+
+
+<div id="research">
+<div class="sec"><a href="/zh-Hant/research.html">研究</a></div>
+
+<div class="entry">
+<h3>新聞傳播與大模型<span class="meta"> —— 與鄒全義教授，2024.05–</span></h3>
+<p class="desc">大模型在新聞環境中的行為：跨文本與圖像的假新聞檢測、其下的審核層，以及決定模型願意說什麼的對齊工作。三篇論文，一篇已接受。</p>
+<ul class="sub">
+<li><a href="https://doi.org/10.1109/TCE.2026.3677445">CMLE: a collaborative LoRA-enhanced expert framework for multimodal fake news detection</a><span class="meta">（2026），IEEE Transactions on Consumer Electronics —— </span><a href="/cv/CMLE_IEEE_TCE_2026.pdf">pdf</a></li>
+<li>Towards better transparency and reliability in smart contract vulnerability detection via counterfactual contrastive explanations<span class="meta">（審稿中）</span></li>
+<li>Multi-task fake news detection<span class="meta">（進行中）</span></li>
+<li>一項專利，已提交<span class="meta">（預計 2026）</span></li>
+</ul>
+</div>
+
+<div class="entry">
+<h3>多模態 AI 心理教練<span class="meta"> —— 與黨媛媛教授，2026.05–</span></h3>
+<p class="desc">一個為在隨機對照試驗中檢驗而構建的教練系統：在精選知識庫上檢索、通過 MCP 調用工具，以及一個讓模型保持誠實的評測裝置。參與了在撰手稿。</p>
+</div>
+
+<div class="entry">
+<h3>AIGC 臨床病例生成<span class="meta"> —— 與黨媛媛教授，2024.07–2024.12</span></h3>
+<p class="desc">微調 Whisper 與 Qwen，把臨床口述轉為結構化的患者病例。</p>
+</div>
+
+<div class="entry">
+<h3>旅遊軌跡數據挖掘<span class="meta"> —— 與鄧紫坤教授，2025.08–</span></h3>
+<p class="desc">挖掘遊客軌跡數據，檢驗人們發布的內容是否會左右他們前往何方。</p>
+<ul class="sub">
+<li>旅遊軌跡仿真與客流預測<span class="meta">（進行中）</span></li>
+</ul>
+</div>
+
+<div class="entry">
+<h3>農業自動評估系統<span class="meta"> —— 2025.07–2026.02，七人團隊</span></h3>
+<p class="desc">一個應用型項目：無人機與攝像頭影像輸入，作物與病蟲害評估輸出，由大模型撰寫田間報告。</p>
+</div>
+</div>
+
+<div id="projects">
+<div class="sec"><a href="/zh-Hant/projects.html">項目</a></div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/RecRedTeam">RecRedTeam</a><span class="meta">（2026–）</span></h3>
+<p class="desc">針對大模型與智能體推薦、購物助手的紅隊審計框架：一套映射到 OWASP ASI 2026 的威脅分類、一個攻擊庫、雙通道裁判、防禦插件、排行榜與合規報告。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/OnChainGov">OnChainGov</a><span class="meta">（2026–）</span></h3>
+<p class="desc">鏈上治理研究工具鏈：從 Snapshot、Tally、EVM 與 Steemit 採集 DAO 及 Web3 數據進入研究面板，再進行因果推斷——雙重差分、PSM-DID、安慰劑與事件研究——數據集隨之公開。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/open-stethoscope">open-stethoscope</a><span class="meta">（2026）</span></h3>
+<p class="desc">面向基層醫療的開源 AI 心臟雜音檢測：多位置掩碼注意力融合，在官方 PhysioNet-2022 挑戰指標上打分。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/Crusaders">Crusaders</a><span class="meta">（2026–）</span></h3>
+<p class="desc">一套用於設計、運行與評估由動態權力交接驅動的人機協作框架的腳手架。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/MatchaFlow">MatchaFlow</a><span class="meta">（2025–）</span></h3>
+<p class="desc">一個模擬完整軟件項目管理流程的大模型多智能體系統。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/Bigdata-Final-System">Bigdata-Final-System</a><span class="meta">（2026）</span></h3>
+<p class="desc">建立在大數據棧上的商戶選址平台，在中國移動企業實訓期間完成。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/DLFaceDetection">DLFaceDetection</a><span class="meta">（2025）</span></h3>
+<p class="desc">基於 gRPC 的分佈式人臉識別系統，按 CPU 佔用與網絡延遲劃分模塊。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/AIFrameQuest">AIFrameQuest</a> <span class="meta">/</span> <a href="https://github.com/NoahIsARider/ZhituCareer">ZhituCareer+</a><span class="meta">（2025）</span></h3>
+<p class="desc">一個以圖搜圖社區平台（Flask, Vue, Faiss, BERT）與一個職業分析、崗位推薦系統。六人課程團隊，我任組長。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/MankiwEcoLab">MankiwEcoLab</a><span class="meta">（2025）</span></h3>
+<p class="desc">把曼昆《經濟學原理》裡的經典模型，從生產可能性邊界到菲利普斯曲線，變成可運行、可測試的 Python。</p>
+</div>
+
+<div class="entry">
+<h3><a href="https://github.com/NoahIsARider/Reptile">Reptile</a></h3>
+<p class="desc">一套基於 BeautifulSoup 的爬蟲，用於電影目錄、Bilibili 評論與新聞頁面。</p>
+</div>
+</div>
+
+<div id="sites">
+<div class="sec"><a href="/zh-Hant/sites.html">網站</a></div>
+
+<div class="row">
+<h3><a href="/oblivio/">oblivion is freedom</a></h3>
+<p class="desc">一面精選作品的閱讀牆，改編自原始文檔。</p>
+</div>
+
+<div class="row">
+<h3><a href="/oblivio/portfolio/">Selected Works</a><span class="meta">（作品集）</span></h3>
+<p class="desc">一份安靜的作品集：精選寫作、圖像作品與線上實驗。</p>
+</div>
+
+<div class="row">
+<h3><a href="/noahsroom/">NOAH&rsquo;S ROOM</a></h3>
+<p class="desc">每件物品都是一扇通往房間不同角落的門。</p>
+</div>
+</div>
+
+<div id="writing">
+<div class="sec"><a href="/zh-Hant/writing.html">寫作</a></div>
+<div class="row">
+<h3><a href="/noahsblog/">Noah&rsquo;s Blog</a> <span class="meta">/</span> <a href="https://x.com/NoahIsARider">X</a></h3></div>
+<p class="desc">一份持續積累的研究筆記、開發工作與隨想，短篇發在 X。</p>
+</div>
+
+<div id="now">
+<div class="sec"><a href="/zh-Hant/now.html">現在</a></div>
+<p class="desc">我正在讀、在看、在聽、在玩的東西。</p>
+<ul class="links">
+<li><a href="https://www.goodreads.com/ratkingsyndrome">Goodreads</a> <span class="meta">書</span></li>
+<li><a href="https://letterboxd.com/NoahIsARider/">Letterboxd</a> <span class="meta">電影</span></li>
+<li><a href="https://record.club/NoahIsARider">Record Club</a> <span class="meta">音樂</span></li>
+<li><a href="https://noahisarider.itch.io">itch.io</a> <span class="meta">遊戲</span></li>
+</ul>
+</div>
+
+<div class="rail">
+<aside class="now" aria-label="Contact">
+<p class="now-quote">&ldquo;你必須擇善固執、終生不渝。不斷地經過那些打開的窗口。&rdquo;</p>
+<p class="now-cite">《新罕布什爾旅館》，約翰·歐文</p>
+<div class="now-hd">聯絡方式</div>
+<ul class="now-list">
+<li><a href="https://github.com/NoahIsARider">GitHub</a></li>
+<li><a href="https://codeberg.org/NoahIsARider">Codeberg</a></li>
+<li><a href="https://huggingface.co/NoahIsARider">Hugging Face</a></li>
+<li><a href="https://sr.ht/~noahisarider/">SourceHut</a></li>
+<li><a href="mailto:noahchou2005@gmail.com">noahchou2005@gmail.com</a></li>
+</ul>
+</aside>
+
+<div class="share">
+<div class="share-hd">想分享給你的項目</div>
+<ul class="now-list">
+<li><a href="https://noahisarider.github.io/oblivio/">oblivio</a></li>
+<li><a href="https://noahisarider.github.io/oblivio/portfolio/">作品集</a></li>
+<li><a href="https://noahsblog.pages.dev/">博客</a></li>
+<li><a href="https://github.com/LandslideLab">LandslideLab</a> <span class="meta">GitHub 組織</span></li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="foot">
+<span><a href="mailto:noahchou2005@gmail.com">noahchou2005@gmail.com</a></span>
+<span><a href="https://github.com/NoahIsARider">github.com/NoahIsARider</a></span>
+</div>
+
+</div>
+</body>
+</html>
