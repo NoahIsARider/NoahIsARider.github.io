@@ -20,9 +20,9 @@ const SELVES = {
     desc: "Questions I keep asking: how machines and people should share the work, and what the data says about it.",
     links: [
       { icon: "i-cap", label: "Google Scholar", desc: "publications and citations", href: "https://scholar.google.cz/citations?user=CLf-BNAAAAAJ" },
-      { icon: "i-doc", label: "Publications & research", desc: "papers, drafts and the research page", href: "https://noahisarider.github.io/cv/research.html" },
-      { icon: "i-id", label: "Curriculum vitae", desc: "the full CV, with the PDF downloads", href: "https://noahisarider.github.io/cv/" },
-      { icon: "i-compass", label: "Background", desc: "the dual degree, the scores, the road here", href: "https://noahisarider.github.io/cv/background.html" }
+      { icon: "i-doc", label: "Publications & research", desc: "papers, drafts and the research page", href: "https://noahisarider.codeberg.page/cv/research.html" },
+      { icon: "i-id", label: "Curriculum vitae", desc: "the full CV, with the PDF downloads", href: "https://noahisarider.codeberg.page/cv/" },
+      { icon: "i-compass", label: "Background", desc: "the dual degree, the scores, the road here", href: "https://noahisarider.codeberg.page/cv/background.html" }
     ]
   },
   writing: {

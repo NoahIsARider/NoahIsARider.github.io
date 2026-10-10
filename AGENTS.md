@@ -7,7 +7,7 @@
 
 ## What this site is
 
-<https://noahisarider.github.io/> — a single-page personal index served as a static site from this
+<https://noahisarider.codeberg.page/> — a single-page personal index served as a static site from this
 repository by GitHub Pages. **No build step, no framework, no JavaScript, no external requests.**
 The entire page is `index.html`: markup, one inline `<style>` block and the JSON-LD graph together.
 
@@ -64,7 +64,7 @@ old architecture's leftovers: no page loads them any more, so editing them chang
 
 ## Related repositories
 
-- **CV** — `NoahIsARider/cv`, served at <https://noahisarider.github.io/cv/> in English / 简体 / 繁體.
+- **CV** — `NoahIsARider/cv`, served at <https://noahisarider.codeberg.page/cv/> in English / 简体 / 繁體.
   That repo is self-contained: it carries its own copies of the PDFs, the photo and the stylesheet.
   Local checkout is `D:/Projects/个人主页/fangyanuo-zhou`.
 - **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube, noahsblog and the

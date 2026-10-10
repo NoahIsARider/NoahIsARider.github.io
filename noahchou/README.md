@@ -2,7 +2,7 @@
 
 The landing page for **Noah Chou** — seven chibi selves, one door each.
 
-- Live: <https://noahisarider.github.io/noahchou/>
+- Live: <https://noahisarider.codeberg.page/noahchou/>
 - Mirror: <https://noahisarider.codeberg.page/noahchou/>
 
 | File | What |
@@ -14,4 +14,4 @@ The landing page for **Noah Chou** — seven chibi selves, one door each.
 
 No build step, no trackers, no dependencies, no absolute paths — edit the three files and push.
 
-Canonical URL: <https://noahisarider.github.io/noahchou/>
+Canonical URL: <https://noahisarider.codeberg.page/noahchou/>

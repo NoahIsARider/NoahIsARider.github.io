@@ -1,6 +1,6 @@
 # noahisarider — personal index
 
-Source of **<https://noahisarider.github.io/>** — one self-contained static page.
+Source of **<https://noahisarider.codeberg.page/>** — one self-contained static page.
 
 No build step, no framework, no JavaScript, no external requests. The whole page is a single
 hand-written `index.html` with an inline stylesheet.
@@ -49,7 +49,7 @@ especially hard.
 ## Related
 
 - **CV** — its own repository, [`NoahIsARider/cv`](https://github.com/NoahIsARider/cv), served at
-  <https://noahisarider.github.io/cv/> in English, 简体中文 and 繁體中文
+  <https://noahisarider.codeberg.page/cv/> in English, 简体中文 and 繁體中文
 - **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube and the rest are
   separate repositories, each served as a Pages project under this domain
 - The stubs listed above keep the retired `/fangyanuo-zhou/` paths answering
