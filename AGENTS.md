@@ -76,6 +76,24 @@ over it, and nothing links to either deck — `Portfolio.pdf` is the published f
 The two masters live outside the web trees, in `D:/Projects/个人主页/noahchou-unused-assets/portfolio-deck/`,
 with a `.from-<tree>` suffix where the copies differed. `git log -- Portfolio.pptx` still has them.
 
+### The sub-site links are absolute, on purpose
+
+This repo is deployed twice, and the two copies are not the same shape. GitHub Pages
+(`noahisarider.github.io`, live again since the account came back on 2026-10-15) serves it next to
+the sub-sites, so `/cv/` resolves there. The Cloudflare Pages project
+`noahisarider-github-io.pages.dev` builds **this repo alone**, where every sub-site path 404s.
+
+So every link that leaves this repo is written out absolutely as `https://noahisarider.github.io/…`
+(`/cv/`, `/oblivio/`, `/oblivio/portfolio/`, `/noahsroom/`, `/noahsblog/`, `/ICONS/`, `/Platonia/`
+and the rest). Links inside the repo (`/research.html`, `/zh/`, `/static/…`, `/noahchou/`,
+`Portfolio.pdf`) stay root-relative, and they resolve on both copies.
+
+Do not tidy those absolute URLs back into root-relative paths: that is exactly what broke the
+Cloudflare build. The **assembled** copies of the same pages (Codeberg `pages`,
+`noahisarider.gitlab.io`, `noahisarider.pages.dev`) keep their own root-relative links, because
+those hosts serve the whole site. The rule for this repo: every `href="/…"` must resolve inside
+this repo.
+
 ## Related repositories
 
 - **CV** — `NoahIsARider/cv`, served at <https://noahisarider.codeberg.page/cv/> in English / 简体 / 繁體.
@@ -84,9 +102,11 @@ with a `.from-<tree>` suffix where the copies differed. `git log -- Portfolio.pp
 - **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube, noahsblog and the
   rest are **separate repositories**, each a Pages project served under this domain (`/oblivio/`,
   `/Platonia/`, …). They are not in this repository, so editing here does nothing to them.
-- **Cloudflare Pages mirror** — a CF Pages project serves an older copy of this site under
-  `noahisarider.pages.dev` and `noahisarider-github-io.pages.dev`. It does **not** follow pushes
-  automatically: retry the deployment from the CF dashboard to refresh it.
+- **Cloudflare Pages mirrors** — two CF projects. `noahisarider-github-io.pages.dev` builds **this
+  repo alone**, so only the homepage and its own pages exist there, which is why the sub-site links
+  above are absolute. `noahisarider.pages.dev` builds the assembled site from GitLab
+  `NoahIsARider/noahisarider`. Neither follows pushes predictably: retry the deployment from the CF
+  dashboard after a change.
 
 ## Conventions and history
 
