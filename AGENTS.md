@@ -68,6 +68,14 @@ old architecture's leftovers: no page loads them any more, so editing them chang
 | `fangyanuo-zhou/`, `fangyanuozhou/` | Meta-refresh stubs keeping retired CV paths alive. Windows checkouts are case-insensitive while Pages is case-sensitive — hence both spellings plus the `404.html` net. |
 | `noahchou/` | The `/noahchou/` landing page, and one half of a **hand-mirrored pair**: the same files live in the Codeberg `pages` repo. Edit both and keep them byte-identical. |
 
+### Two files are deliberately absent
+
+`Portfolio.pptx` (36 MB) and `archive/Portfolio-old.pptx` (34 MB) are **not** in these trees.
+Cloudflare Pages caps a single asset at **25 MiB** and fails the whole deployment when one file is
+over it, and nothing links to either deck — `Portfolio.pdf` is the published form of the same one.
+The two masters live outside the web trees, in `D:/Projects/个人主页/noahchou-unused-assets/portfolio-deck/`,
+with a `.from-<tree>` suffix where the copies differed. `git log -- Portfolio.pptx` still has them.
+
 ## Related repositories
 
 - **CV** — `NoahIsARider/cv`, served at <https://noahisarider.codeberg.page/cv/> in English / 简体 / 繁體.
