@@ -8,7 +8,7 @@
 ## What this site is
 
 <https://noahisarider.codeberg.page/> — a single-page personal index served as a static site from this
-repository by GitHub Pages. **No build step, no framework, no JavaScript, no external requests.**
+repository by GitHub Pages. **No build step, no framework, no external requests, and one four-line inline script — the day / night switch.**
 The entire page is `index.html`: markup, one inline `<style>` block and the JSON-LD graph together.
 
 Served from branch `main`, repository root (`Settings → Pages`).
@@ -39,6 +39,12 @@ Served from branch `main`, repository root (`Settings → Pages`).
   A media query below 1200px turns it into a normal in-flow card instead.
 - The tab icon is `static/assets/logo.png` — the original file, untouched. The CV repo deliberately
   uses a blank icon instead.
+- **Day / night.** Paper is the default. The moon button at the end of the top nav flips
+  `html[data-theme=dark]`, which swaps the whole variable set for Solarized base03 — `#002b36` paper,
+  `#073642` cards and hover, `#93a1a1` ink, `#839496` secondary (measured contrast 5.61 / 4.86 / 4.75).
+  The reader's choice is kept under `nc-theme`, the key `/noahchou/` already uses, so it follows them
+  from page to page and from language to language. Nothing is saved yet, nothing changes: with
+  JavaScript off every page stays on paper, exactly as before.
 
 ## Editing
 
