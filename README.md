@@ -22,7 +22,6 @@ the document flow.
 ```
 index.html                  the page — markup, inline CSS and JSON-LD in one file
 404.html                    forwards retired CV paths to /cv/
-noahchou/                   the /noahchou/ landing page (hand-mirrored to the Codeberg pages repo — edit both)
 static/assets/              logo.png (tab icon) and img/photo.jpg (referenced by the JSON-LD)
 static/js, static/css       superseded assets — nothing loads them any more
 fangyanuo-zhou/, fangyanuozhou/    meta-refresh stubs for the retired CV paths
@@ -32,6 +31,10 @@ sitemap.xml, robots.txt     crawler files
 google4201cda6dfa1a0ac.html, BingSiteAuth.xml    search-console verification — never delete
 LICENSE, AGENTS.md
 ```
+
+The old `/noahchou/` landing page was taken off the web on 2026-10-18. Its files are kept
+outside this repository, in `D:/Projects/个人主页/retired-pages/github-homepage/noahchou/`,
+so no URL serves them any more. Nothing in this repository references that page.
 
 ## Editing
 
