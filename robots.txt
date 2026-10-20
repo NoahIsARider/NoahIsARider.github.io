@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noahisarider.codeberg.page/sitemap.xml
+Sitemap: https://noahisarider.github.io/sitemap.xml
