@@ -84,7 +84,7 @@ the sub-sites, so `/cv/` resolves there. The Cloudflare Pages project
 `noahisarider-github-io.pages.dev` builds **this repo alone**, where every sub-site path 404s.
 
 So every link that leaves this repo is written out absolutely as `https://noahisarider.github.io/…`
-(`/cv/`, `/oblivio/`, `/oblivio/portfolio/`, `/noahsroom/`, `/noahsblog/`, `/ICONS/`, `/Platonia/`
+(`/cv/`, `/oblivio/`, `/oblivio/portfolio/`, `/noahsroom/`, `/noahsblog/`, `/ICONS/`
 and the rest). Links inside the repo (`/research.html`, `/zh/`, `/static/…`, `/noahchou/`,
 `Portfolio.pdf`) stay root-relative, and they resolve on both copies.
 
@@ -99,9 +99,9 @@ this repo.
 - **CV** — `NoahIsARider/cv`, served at <https://noahisarider.codeberg.page/cv/> in English / 简体 / 繁體.
   That repo is self-contained: it carries its own copies of the PDFs, the photo and the stylesheet.
   Local checkout is `D:/Projects/个人主页/fangyanuo-zhou`.
-- **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube, noahsblog and the
+- **Sub-sites** — oblivio, Noah's Room, GeekRSS, BookClub-2000, Clube, noahsblog and the
   rest are **separate repositories**, each a Pages project served under this domain (`/oblivio/`,
-  `/Platonia/`, …). They are not in this repository, so editing here does nothing to them.
+  ) and friends. They are not in this repository, so editing here does nothing to them.
 - **Cloudflare Pages mirrors** — two CF projects. `noahisarider-github-io.pages.dev` builds **this
   repo alone**, so only the homepage and its own pages exist there, which is why the sub-site links
   above are absolute. `noahisarider.pages.dev` builds the assembled site from GitLab

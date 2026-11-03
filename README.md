@@ -53,7 +53,7 @@ especially hard.
 
 - **CV** — its own repository, [`NoahIsARider/cv`](https://github.com/NoahIsARider/cv), served at
   <https://noahisarider.codeberg.page/cv/> in English, 简体中文 and 繁體中文
-- **Sub-sites** — oblivio, Noah's Room, Platonia, GeekRSS, BookClub-2000, Clube and the rest are
+- **Sub-sites** — oblivio, Noah's Room, GeekRSS, BookClub-2000, Clube and the rest are
   separate repositories, each served as a Pages project under this domain
 - The stubs listed above keep the retired `/fangyanuo-zhou/` paths answering
 
