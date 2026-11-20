@@ -19,7 +19,7 @@ Served from branch `main`, repository root (`Settings → Pages`).
 |---|---|
 | `<head>` | title / meta / OpenGraph / Twitter, canonical, inline SVG favicon, JSON-LD `@graph` (Person, WebSite, two ScholarlyArticle) |
 | `<style>` | the whole design system — CSS custom properties plus ~60 lines of rules |
-| `.mast` | lockup left, section nav right (Research / Projects / Sites / Writing / CV) |
+| `.mast` | lockup left, section nav right (Research / Projects / Sites / Writing / CV). `position:fixed` at `top:0`, so it never moves with the scroll — the same treatment as `aside.now` (it was sticky, and a sticky bar drifts at the end of a tall page). Below 820px it turns into a stacked block, so `.main` keeps `margin-top:132px` there against its 104px on the desktop bar. |
 | `.main` | intro paragraphs, the CV call-out, the facts `<dl>`, then `#research`, `#projects`, `#sites`, `#writing`, `#now` |
 | `aside.now` | the fixed right-hand panel: the quote, its attribution, the contact list |
 | `.foot` | last-updated, email, GitHub |
